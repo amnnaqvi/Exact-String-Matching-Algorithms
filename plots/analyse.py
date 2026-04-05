@@ -23,7 +23,8 @@ PLOT_DIR  = "plots"
 os.makedirs(PLOT_DIR, exist_ok=True)
 
 # ---- Load data ----
-df = pd.read_csv(CSV_PATH)
+# df = pd.read_csv(CSV_PATH)
+df = pd.read_csv(CSV_PATH, encoding='latin-1')
 
 # Consistent colour + marker per algorithm so all three figures match
 STYLE = {

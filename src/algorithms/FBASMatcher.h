@@ -5,20 +5,16 @@
 #include <string>
 
 // ================================================================
-//  FBASMatcher — FOR YOUR PARTNER TO COMPLETE
+//  FBASMatcher — Frequency-Based Anchor Selection (Garraoui 2025)
 //
-//  Frequency-Based Anchor Selection (Garraoui 2025).
-//  Extends BMHMatcher. The shift table, timing, and search loop
-//  structure are all inherited — do not rewrite them.
+//  Extends BMHMatcher. Only two things differ from BMH:
+//    1. preprocess() also finds the "anchor" — the rarest character
+//       in the pattern according to the language frequency table.
+//    2. search() checks the anchor position FIRST at each window,
+//       so most non-matching windows are rejected with 1 comparison.
 //
-//  The ONLY two things that change vs BMH:
-//    1. preprocess() additionally identifies the "anchor" —
-//       the rarest pattern character per the language freq table.
-//    2. search() checks the anchor position first at each window
-//       instead of always starting from the right.
-//
-//  Everything else (shift table, comparison counter, metrics,
-//  CSV output) is inherited. DO NOT rewrite any of that.
+//  The shift table, timing infrastructure, metrics, and CSV output
+//  are all inherited unchanged from BMHMatcher.
 // ================================================================
 
 class FBASMatcher : public BMHMatcher {
@@ -27,27 +23,46 @@ public:
     explicit FBASMatcher(const std::unordered_map<char, double>& freq_table)
         : freq_table_(freq_table) {}
 
+    // ----------------------------------------------------------------
+    //  preprocess
+    //  Step 1: delegate to BMH (builds shift_table_, stores pattern_,
+    //          records preprocess_ms).
+    //  Step 2: scan pattern_ to find the anchor — the index of the
+    //          character with the lowest frequency in freq_table_.
+    //          Characters absent from the table are treated as
+    //          frequency 1.0 (very common, poor anchor choice).
+    // ----------------------------------------------------------------
     void preprocess(const std::string& pattern) override {
-        // Step 1: Run full BMH preprocessing (builds shift table, stores pattern_).
+        // Step 1 — full BMH preprocessing (shift table + timing).
         BMHMatcher::preprocess(pattern);
 
-        // Step 2 (FBAS-specific): Find the anchor.
-        // The anchor is the pattern character with the lowest frequency
-        // in the language. Store its index in pattern as anchor_pos_.
-        //
-        // TODO (Partner): implement this.
-        // Iterate over pattern_, look each char up in freq_table_.
-        // If a char is missing from the table, treat its frequency as 1.0.
-        // Set anchor_pos_ to the index of the minimum-frequency character.
-        //
-        // Example:
-        //   pattern_ = "extra"
-        //   freq_table_['e']=0.127, ['x']=0.003, ['t']=0.091, ...
-        //   anchor_pos_ = 1   (index of 'x', the rarest)
+        // Step 2 — anchor selection (FBAS-specific).
+        double min_freq = 2.0;   // sentinel: higher than any real freq
+        anchor_pos_ = 0;
 
-        anchor_pos_ = 0;  // placeholder — replace with real logic
+        for (size_t idx = 0; idx < pattern_.size(); ++idx) {
+            char c = pattern_[idx];
+            auto it = freq_table_.find(c);
+            double freq = (it != freq_table_.end()) ? it->second : 1.0;
+
+            if (freq < min_freq) {
+                min_freq    = freq;
+                anchor_pos_ = idx;
+            }
+        }
     }
 
+    // ----------------------------------------------------------------
+    //  search
+    //  Same outer loop and shift logic as BMH.
+    //  The ONLY difference: at each window we check the anchor
+    //  character FIRST before verifying the rest of the pattern.
+    //
+    //  Window layout (i = rightmost index of current window):
+    //    window start     = i - m + 1
+    //    anchor in text   = i - m + 1 + anchor_pos_
+    //    shift character  = text[i]   (identical to BMH — unchanged)
+    // ----------------------------------------------------------------
     std::vector<size_t> search(const std::string& text) override {
         if (pattern_.empty())
             throw std::logic_error("Call preprocess() before search().");
@@ -62,43 +77,42 @@ public:
 
         auto t_start = std::chrono::high_resolution_clock::now();
 
-        size_t n = text.size();
-        size_t m = pattern_len_;
-        size_t i = m - 1;
+        size_t n           = text.size();
+        size_t m           = pattern_len_;
+        size_t i           = m - 1;   // rightmost index of current window
 
         while (i < n) {
-            // TODO (Partner): anchor-first check.
-            //
-            // The anchor character in the pattern is at index anchor_pos_.
-            // At window position i (rightmost), the window starts at i - m + 1.
-            // So the anchor aligns with text at:
-            //   size_t anchor_text_pos = i - m + 1 + anchor_pos_;
-            //
-            // Check text[anchor_text_pos] vs pattern_[anchor_pos_] FIRST:
-            //   - If they differ:  metrics_.comparisons++, shift, continue.
-            //   - If they match:   metrics_.comparisons++, then verify the
-            //                      full pattern (any order), counting each
-            //                      comparison in metrics_.comparisons.
-            //
-            // Shift always uses: shift_table_[text[i]]  (same as BMH).
+            size_t win_start       = i - m + 1;
+            size_t anchor_text_pos = win_start + anchor_pos_;
 
-            // --- Placeholder: plain BMH loop (partner replaces this block) ---
-            size_t k = i;
-            size_t j = m - 1;
-            bool match = true;
-            while (true) {
-                metrics_.comparisons++;
-                if (text[k] != pattern_[j]) { match = false; break; }
-                if (j == 0) break;
-                --k; --j;
+            // --- Anchor-first check (the FBAS optimisation) ---
+            metrics_.comparisons++;
+            if (text[anchor_text_pos] != pattern_[anchor_pos_]) {
+                // Mismatch at the rarest character: reject immediately.
+                // One comparison used; shift and move on.
+                unsigned char last = static_cast<unsigned char>(text[i]);
+                i += shift_table_[last];
+                continue;
             }
-            // -----------------------------------------------------------------
+
+            // Anchor matched — verify the rest of the pattern.
+            // Check every position except anchor_pos_ (already verified).
+            bool match = true;
+            for (size_t j = 0; j < m; ++j) {
+                if (j == anchor_pos_) continue;   // already checked
+                metrics_.comparisons++;
+                if (text[win_start + j] != pattern_[j]) {
+                    match = false;
+                    break;
+                }
+            }
 
             if (match) {
-                positions.push_back(i - m + 1);
+                positions.push_back(win_start);
                 metrics_.matches_found++;
             }
 
+            // Shift: always driven by the rightmost character (same as BMH).
             unsigned char last = static_cast<unsigned char>(text[i]);
             i += shift_table_[last];
         }
