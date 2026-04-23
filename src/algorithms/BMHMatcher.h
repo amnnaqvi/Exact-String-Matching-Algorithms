@@ -1,6 +1,6 @@
 #pragma once
 
-#include "Matcher.h"
+#include "../algorithms/Matcher.h"
 #include <array>
 #include <chrono>
 #include <stdexcept>

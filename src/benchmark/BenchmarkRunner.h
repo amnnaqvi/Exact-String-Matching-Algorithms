@@ -6,10 +6,18 @@
 #include "../algorithms/Matcher.h"
 #include "../utils/MetricsRecorder.h"
 
-// Runs each algorithm over a set of (pattern, rarity) pairs for one corpus.
-// Each (algorithm, pattern) combination is searched N_RUNS times.
-// Preprocess is called once per pattern — not once per run —
-// which accurately isolates search cost from setup cost.
+// ================================================================
+//  BenchmarkRunner
+//
+//  Runs each registered algorithm over all (pattern, rarity) pairs
+//  for one corpus. Each (algorithm, pattern) pair is searched
+//  N_RUNS times. Preprocess is called ONCE per pattern (not per run)
+//  to accurately isolate search cost from setup cost.
+//
+//  The HC algorithm's name() method includes its parameter string
+//  (e.g. "HC_q3a11"), so different HC configurations appear as
+//  separate rows in the CSV and can be compared in analysis.
+// ================================================================
 
 static constexpr int N_RUNS = 5;
 
@@ -29,17 +37,16 @@ public:
         for (Matcher* algo : algorithms_) {
             for (const auto& [pattern, rarity] : patterns) {
 
-                // Preprocess once — builds the shift table (or hash chain for HC).
+                // Preprocess once per (algorithm, pattern) pair
                 algo->preprocess(pattern);
                 double preprocess_ms = algo->get_metrics().preprocess_ms;
 
                 for (int run = 0; run < N_RUNS; ++run) {
-                    // search() uses the pattern stored internally by preprocess()
                     algo->search(text);
                     const MatchMetrics& m = algo->get_metrics();
 
-                    MatchMetrics row     = m;
-                    row.preprocess_ms    = preprocess_ms;
+                    MatchMetrics row  = m;
+                    row.preprocess_ms = preprocess_ms;
 
                     recorder.record(
                         algo->name(),
