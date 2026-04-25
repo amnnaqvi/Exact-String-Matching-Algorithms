@@ -22,6 +22,7 @@ PLOT_DIR.mkdir(exist_ok=True)
 RESULT_DIR.mkdir(exist_ok=True)
 
 HC_PAPER_TIMES = {8: 17.54, 16: 10.67, 32: 8.08, 64: 6.84, 128: 6.49}
+CORPUS_ORDER = ["dante", "pizza", "gutenberg"]
 
 STYLE = {
     "BMH": {"color": "#4C72B0", "marker": "o", "linestyle": "-"},
@@ -34,6 +35,13 @@ STYLE = {
 
 def style(algo):
     return STYLE.get(algo, {"color": "grey", "marker": "x", "linestyle": ":"})
+
+
+def ordered_corpora(values):
+    present = set(values)
+    ordered = [corpus for corpus in CORPUS_ORDER if corpus in present]
+    ordered.extend(sorted(present - set(ordered)))
+    return ordered
 
 
 def clipped_yerr(means, stds):
@@ -69,7 +77,8 @@ def select_hc_per_corpus_length(df):
     if not variants:
         return df.copy(), pd.DataFrame()
 
-    hc = df[df["algorithm"].isin(variants)]
+    sweep_df = df[df["rarity_bucket"] != "paper_fixed"].copy()
+    hc = sweep_df[sweep_df["algorithm"].isin(variants)]
     winners = (
         hc.groupby(["corpus", "length", "algorithm"], as_index=False)["runtime_ms"]
         .mean()
@@ -89,6 +98,9 @@ def select_hc_per_corpus_length(df):
         )
         selected.append(df[keep].assign(algorithm="HC"))
 
+    # Paper-fixed rows are for the FBAS replication only. Keep BMH/FBAS rows,
+    # but do not include HC variants there because they are not part of that
+    # first-occurrence comparison.
     non_hc = df[~df["algorithm"].astype(str).str.startswith("HC_")]
     selected_df = pd.concat([non_hc] + selected, ignore_index=True)
     return selected_df, winners
@@ -128,6 +140,8 @@ def sanity_tables(raw_df):
 
 
 def save_runtime_summary(df):
+    df = df[df["rarity_bucket"] != "paper_fixed"].copy()
+
     summary = (
         df.groupby(["algorithm", "corpus", "length"])["runtime_ms"]
         .agg(mean_ms="mean", std_ms="std", runs="count")
@@ -146,7 +160,7 @@ def save_runtime_summary(df):
 
 
 def plot_lines(df, value, ylabel, title, filename, include_error=True):
-    corpora = sorted(df["corpus"].unique())
+    corpora = ordered_corpora(df["corpus"].unique())
     algorithms = [a for a in ["BMH", "FBAS", "HC"] if a in set(df["algorithm"])]
 
     fig, axes = plt.subplots(1, len(corpora), figsize=(6 * len(corpora), 4.5))
@@ -182,7 +196,7 @@ def plot_lines(df, value, ylabel, title, filename, include_error=True):
 
 def plot_rarity(df):
     df8 = df[(df["length"] == 8) & (df["rarity_bucket"] != "paper_fixed")].copy()
-    corpora = sorted(df8["corpus"].unique())
+    corpora = ordered_corpora(df8["corpus"].unique())
     algorithms = [a for a in ["BMH", "FBAS", "HC"] if a in set(df8["algorithm"])]
     rarity_order = ["common", "medium", "rare"]
 
@@ -252,7 +266,7 @@ def add_filter_efficiency(df):
 
 def plot_filter_efficiency(eff):
     eff = eff[eff["algorithm"].isin(["FBAS", "HC"])].copy()
-    corpora = sorted(eff["corpus"].unique())
+    corpora = ordered_corpora(eff["corpus"].unique())
 
     fig, axes = plt.subplots(1, len(corpora), figsize=(6 * len(corpora), 4.5))
     if len(corpora) == 1:
@@ -325,7 +339,7 @@ def plot_hc_variants(raw_df):
     hc = raw_df[raw_df["algorithm"].astype(str).str.startswith("HC_")]
     if hc.empty:
         return
-    corpora = sorted(hc["corpus"].unique())
+    corpora = ordered_corpora(hc["corpus"].unique())
     fig, axes = plt.subplots(1, len(corpora), figsize=(6 * len(corpora), 4.5))
     if len(corpora) == 1:
         axes = [axes]
@@ -464,7 +478,7 @@ def main():
     sweep = selected_df[selected_df["rarity_bucket"] != "paper_fixed"].copy()
 
     print(f"Loaded {len(raw_df)} rows from {CSV_PATH}")
-    print(f"Corpora: {sorted(raw_df['corpus'].unique())}")
+    print(f"Corpora: {ordered_corpora(raw_df['corpus'].unique())}")
     if not winners.empty:
         print("HC variant selections written to results/hc_variant_selection.csv")
 

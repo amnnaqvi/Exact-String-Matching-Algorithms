@@ -559,7 +559,7 @@ FBAS,pizza,uld not be a third. He took a bu,32,medium,6981221.0,7058031.0,1.0882
 FBAS,pizza,who had sought t,16,medium,11267226.0,12296185.0,8.368115801771037
 FBAS,pizza,y places among t,16,medium,11009173.0,12101000.0,9.0226179654574
 FBAS,pizza,y the oc,8,medium,19699444.0,18937695.0,-4.0223955449699655
-HC,dante,    E po,8,medium,71.0,97469.0,99.92715632662693
+HC,dante,    E po,8,medium,69.0,97469.0,99.92920826108814
 HC,dante,"    tal mi fecâ Ã¯o ân quella oscura costa,  perchÃ©, pensan",64,rare,64.0,31545.0,99.79711523220796
 HC,dante,    Â«Lâ,8,rare,16.0,84931.0,99.98116117789735
 HC,dante,  per la corona ,16,medium,16.0,77121.0,99.97925338105055
@@ -567,7 +567,7 @@ HC,dante,  su la fiumana ,16,medium,16.0,69732.0,99.97705501061206
 HC,dante, Camonica e Penn,16,medium,16.0,62268.0,99.97430461874478
 HC,dante," altro disio, sÃ¬ che tua cura  sÃ© stessa lega sÃ¬ che fuor non",64,rare,64.0,30589.0,99.7907744614077
 HC,dante," colore,  nÃ© lâun nÃ© lâalt",32,rare,32.0,33492.0,99.90445479517497
-HC,dante, de lâ,8,rare,1558.0,106900.0,98.54256314312441
+HC,dante, de lâ,8,rare,1563.0,106900.0,98.5378858746492
 HC,dante," figura,",8,medium,32.0,92096.0,99.96525364836693
 HC,dante, fuor di quella  Ã¨ defettivo ciÃ² châÃ¨ lÃ¬ perfetto.    Omai,64,rare,64.0,27596.0,99.76808233077257
 HC,dante, malvagia e scempia  con la qual tu cadrai in questa valle;    c,64,rare,64.0,29193.0,99.78076936251841
@@ -584,15 +584,15 @@ HC,dante,a  lâo,8,rare,124.0,93631.0,99.8675652294646
 HC,dante,a dentro tutte p,16,medium,16.0,64242.0,99.97509417515022
 HC,dante,a e sâascondeva vosco  quelli ,32,rare,32.0,51786.0,99.93820723747731
 HC,dante,"a,  Â«ch",8,rare,10.0,90820.0,99.98898920942524
-HC,dante,bita dis,8,medium,8.0,106212.0,99.99246789439988
+HC,dante,bita dis,8,medium,10.0,106212.0,99.99058486799984
 HC,dante,"bito foco,  movendo li occhi che",32,medium,32.0,40501.0,99.92098960519493
-HC,dante,dal mio ,8,medium,98.0,124005.0,99.92097092859159
+HC,dante,dal mio ,8,medium,85.0,124005.0,99.93145437683964
 HC,dante,"do quasi, sÃ¬ che Giove,  Mercurio e Marte a nominar trascorse. ",64,rare,64.0,34056.0,99.81207423067889
 HC,dante,"do sÃ¹, non pote",16,rare,16.0,60593.0,99.97359430957371
-HC,dante,duol pur,8,medium,8.0,99813.0,99.99198501197239
+HC,dante,duol pur,8,medium,10.0,99813.0,99.98998126496548
 HC,dante,"e Ã¨ de lâuom proprio male,  piÃ¹ spiace a Dio; e perÃ² stan d",64,rare,64.0,31271.0,99.7953375331777
-HC,dante,egio e l,8,medium,9.0,115427.0,99.9922028641479
-HC,dante,er lo fo,8,medium,43.0,106965.0,99.95979993455803
+HC,dante,egio e l,8,medium,10.0,115427.0,99.9913365157199
+HC,dante,er lo fo,8,medium,62.0,106965.0,99.94203711494414
 HC,dante,erg  electronic works. See parag,32,rare,32.0,40134.0,99.92026710519758
 HC,dante,gua si scerna.    CiÃ² che narra,32,rare,32.0,41305.0,99.92252753903885
 HC,dante,"hia,  venendo sÃ",16,rare,16.0,63524.0,99.97481266922738
@@ -605,7 +605,7 @@ HC,dante,ltri sca,8,common,9.0,107506.0,99.99162837423027
 HC,dante,mi lÃ¬ n,8,rare,10.0,103393.0,99.99032816534968
 HC,dante,"miltÃ , e gran t",16,rare,16.0,66265.0,99.97585452350411
 HC,dante,"n campo giunti coâ loro avversari,  e io pregava Iddio di quel",64,rare,64.0,27718.0,99.76910310989248
-HC,dante,n le suo,8,medium,17.0,105739.0,99.9839226775362
+HC,dante,n le suo,8,medium,16.0,105739.0,99.98486840238701
 HC,dante,ncor brami.    Per lei assai di ,32,medium,32.0,47403.0,99.9324937240259
 HC,dante,ndela;    cosÃ¬ ,16,rare,16.0,67176.0,99.9761819697511
 HC,dante,"no,    di che stupor dovea esser compiuto!  Certo tra esso e â",64,rare,64.0,28059.0,99.77190919134681
@@ -613,33 +613,33 @@ HC,dante,no; e perÃ² non sâammiri  se n,32,rare,32.0,41435.0,99.922770604
 HC,dante,non mi desse  la,16,medium,16.0,64624.0,99.97524139638524
 HC,dante,nte  sâaggiugn,16,rare,16.0,53011.0,99.96981758502952
 HC,dante,o di maschio fem,16,medium,16.0,66675.0,99.97600299962505
-HC,dante,o fianco,8,medium,43.0,104780.0,99.9589616338996
+HC,dante,o fianco,8,medium,45.0,104780.0,99.95705287268562
 HC,dante,"o.          Inferno  Canto II      Lo giorno se nâandava, e lâ",64,rare,64.0,28929.0,99.77876870959936
 HC,dante,of the country w,16,rare,32.0,61661.0,99.94810333922577
 HC,dante,ome âl piÃ¹ basso face  qual t,32,rare,32.0,42325.0,99.92439456585942
 HC,dante,"one a le sue rime,    tal qual d",32,medium,32.0,37984.0,99.91575400168492
 HC,dante,"padre mio, ma disse: Â«Scocca  lâarco del dir, che ânfino al",64,rare,64.0,33181.0,99.80711853168982
 HC,dante,per salire al monte  dove siede la chiesa che soggioga  la ben g,64,medium,64.0,26717.0,99.76045214657334
-HC,dante,pregna  ,8,medium,13.0,148224.0,99.99122949050086
+HC,dante,pregna  ,8,medium,14.0,148224.0,99.990554835924
 HC,dante,"r non ha contasto a lei:  questa provede, giudica, e persegue  s",64,rare,64.0,29191.0,99.78075434209174
 HC,dante,ra pennuto di sei ali;  le penne piene dâocchi; e li occhi dâ,64,rare,64.0,24690.0,99.74078574321588
 HC,dante,"radiso  Canto XXXII      Affetto al suo piacer, quel contemplant",64,rare,64.0,32911.0,99.80553614293093
 HC,dante,rlo e di Ridolfo,16,medium,16.0,58036.0,99.97243090495554
 HC,dante,roject          Gutenberg Litera,32,rare,64.0,37644.0,99.82998618637764
-HC,dante,rutto;  ,8,rare,26.0,136484.0,99.98095014800269
+HC,dante,rutto;  ,8,rare,31.0,136484.0,99.9772867149263
 HC,dante,"se âl maestro, Â«che lâandar",32,rare,32.0,43430.0,99.92631821321667
 HC,dante,"se,  e tre spiriti venner sotto noi,  deâ quai nÃ© io nÃ© âl",64,rare,64.0,25019.0,99.7441944122467
-HC,dante,ta canti,8,common,13.0,102363.0,99.98730009866847
+HC,dante,ta canti,8,common,9.0,102363.0,99.99120776061663
 HC,dante,"tator de la misera valle,  che p",32,medium,32.0,40943.0,99.92184256161005
 HC,dante,"ti con sospetti!    Vien, crudel",32,rare,32.0,40779.0,99.92152823757326
 HC,dante,"ti glienâ avea piÃ¹ dâuna ciocca,  latrando lui con li occhi",64,rare,64.0,28222.0,99.77322656083906
 HC,dante,to santoÂ».    Seguentemente int,32,rare,32.0,38266.0,99.91637484973606
 HC,dante,"to,  châamor di nostra vita di",32,rare,32.0,45666.0,99.92992598432095
 HC,dante,tre faville câ,16,rare,16.0,65315.0,99.97550333001608
-HC,dante,ura.    ,8,medium,513.0,144787.0,99.64568642212353
+HC,dante,ura.    ,8,medium,514.0,144787.0,99.64499575238108
 HC,dante,va ne lâettern,16,rare,32.0,55329.0,99.94216414538488
 HC,dante, ciascun che gi,16,rare,16.0,66031.0,99.97576895700504
-HC,gutenberg,                                ,32,common,45420.0,131256.0,65.39586761748035
+HC,gutenberg,                                ,32,common,45550.0,131256.0,65.29682452611691
 HC,gutenberg,  incomp,8,medium,9.0,117532.0,99.99234251097573
 HC,gutenberg," allowed without very much  protest. Yet, both in Mr. Addison an",64,medium,64.0,46318.0,99.86182477654475
 HC,gutenberg, and pla,8,medium,32.0,130322.0,99.97544543515293
@@ -692,7 +692,7 @@ HC,gutenberg,ighted h,8,medium,8.0,153342.0,99.99478290357501
 HC,gutenberg,in good-humour  and good spirits,32,rare,32.0,51566.0,99.93794360625218
 HC,gutenberg,ing in E,8,medium,8.0,132914.0,99.99398107046662
 HC,gutenberg,kably  g,8,medium,8.0,129914.0,99.99384208014533
-HC,gutenberg,l       think of,16,medium,3646.0,81865.0,95.54632626885727
+HC,gutenberg,l       think of,16,medium,3640.0,81865.0,95.55365540829415
 HC,gutenberg,"lly?â    âA thorough, determ",32,rare,32.0,48850.0,99.93449334698056
 HC,gutenberg,"manner, I shall certainly be reduced to tricks and stratagems to",64,medium,64.0,42597.0,99.84975467755945
 HC,gutenberg,"n did not vary on seeing them. Miss Bennetâs lovely face  confirmed his views, and established all his strictest notions of wh",128,rare,128.0,33452.0,99.61736219060145
@@ -718,7 +718,7 @@ HC,gutenberg,"st  conscientiously to his book, and would not even look at her.  
 HC,gutenberg,"t come and part us, I am determi",32,medium,32.0,51484.0,99.93784476730634
 HC,gutenberg,t do jus,8,rare,17.0,126155.0,99.9865245134953
 HC,gutenberg,t he will not have Lizzy.â    âAnd what am I to do on the occasion? It seems a hopeless business.â    âSpeak to Lizzy ab,128,rare,128.0,24383.0,99.47504408809417
-HC,gutenberg,t on the subject,16,rare,69.0,79500.0,99.9132075471698
+HC,gutenberg,t on the subject,16,rare,67.0,79500.0,99.91572327044025
 HC,gutenberg,t she co,8,medium,307.0,145671.0,99.78925112067604
 HC,gutenberg,t! But I,8,rare,37.0,132284.0,99.97202987511717
 HC,gutenberg,"termined to hate! Do not wish me such an  evil.â    When the dancing recommenced, however, and Darcy approached to claim her  ",128,rare,128.0,39981.0,99.67984792776569
@@ -739,9 +739,9 @@ HC,gutenberg,was now employment for the whole  party; for though they could n,64
 HC,gutenberg,"where secrecy  was possible, except to Elizabeth; and from all B",64,rare,64.0,41654.0,99.84635329140059
 HC,gutenberg,âs departure s,16,rare,16.0,92619.0,99.98272492685086
 HC,gutenberg,â    It may be,16,rare,16.0,76729.0,99.9791473888621
-HC,pizza,     Nod,8,common,36997.0,16265825.0,99.77254765743514
-HC,pizza,   Story of the ,16,medium,1341.0,16100751.0,99.9916711959585
-HC,pizza,"  ""What ",8,rare,16599.0,20017323.0,99.91707682390897
+HC,pizza,     Nod,8,common,37926.0,16265825.0,99.76683629634525
+HC,pizza,   Story of the ,16,medium,1334.0,16100751.0,99.99171467219138
+HC,pizza,"  ""What ",8,rare,16523.0,20017323.0,99.91745649505681
 HC,pizza,  1.62.  A MAYOR,16,rare,16.0,7614361.0,99.99978987074556
 HC,pizza,  I don't know what it can ever ,32,rare,32.0,8897933.0,99.99964036591419
 HC,pizza," a member of his family that he did not want the bother of ""buyi",64,rare,64.0,5049803.0,99.99873262382711
@@ -752,24 +752,24 @@ HC,pizza, clank.  You've ,16,rare,16.0,11858307.0,99.99986507348815
 HC,pizza," drive Richard Hardie to despair.""  ""No, no,"" implored Peggy; ""t",64,rare,64.0,4529595.0,99.99858707014644
 HC,pizza, far was the anxiety experienced on that score by the King of Na,64,rare,64.0,5713854.0,99.9988799153776
 HC,pizza, from my sister ,16,medium,48.0,13263173.0,99.99963809565027
-HC,pizza, he depe,8,medium,261.0,18301406.0,99.99857388006146
+HC,pizza, he depe,8,medium,188.0,18301406.0,99.99897275651936
 HC,pizza, his good-humour,16,rare,32.0,8887847.0,99.99963995779855
 HC,pizza," little importance ... no dolmens, menhirs, or ancient circles have been discovered in Judaea, and only one doubtful circle in S",128,rare,128.0,3369263.0,99.99620094958452
 HC,pizza, noticed.  [FN#41] He had now le,32,rare,64.0,7612506.0,99.99915927816674
 HC,pizza," other than Marjanah killed thy daughter, for she hated her in secret;"" and she continued to her son, ""Fret not for taking the b",128,rare,256.0,3459598.0,99.99260029633501
-HC,pizza, politic,8,medium,18611.0,15865934.0,99.8826983649371
+HC,pizza, politic,8,medium,18609.0,15865934.0,99.8827109705612
 HC,pizza," surprise, not to say horror of her daughter, and she actually f",64,medium,320.0,5140227.0,99.9937745940014
 HC,pizza," these four only.  'Whither have they gone, and my host also?' cried Manawyddan, and they searched the hall, and there was no ma",128,rare,128.0,4201188.0,99.99695324274943
-HC,pizza,!  I know what y,16,rare,58.0,11035756.0,99.99947443564356
-HC,pizza,"""Yes.""  ",8,rare,1605.0,20442256.0,99.99214861608229
+HC,pizza,!  I know what y,16,rare,16.0,11035756.0,99.99985501672926
+HC,pizza,"""Yes.""  ",8,rare,1560.0,20442256.0,99.99236874834168
 HC,pizza,.  On the 26th Camilla came back,32,rare,64.0,6138264.0,99.99895735993108
 HC,pizza,": for I fear thine accompanying me, without having his permission, lest he take umbrage at me seeing thee in my society."" Now wh",128,rare,256.0,3964626.0,99.99354289660613
 HC,pizza,"Allah, the Compassionating, the ",32,medium,832.0,11323607.0,99.99265251787703
 HC,pizza,But will it not be more honourable for you to begin?'  'No; I th,64,rare,64.0,5025216.0,99.99872642290401
 HC,pizza,Germans. Bungler,16,medium,16.0,10803182.0,99.99985189548784
 HC,pizza,across to anothe,16,medium,32.0,12861155.0,99.99975118875405
-HC,pizza,ad a fai,8,medium,731.0,16868911.0,99.99566658452345
-HC,pizza,"ahrazad was surprised by the dawn of day and fell silent and ceased to say her permitted say. Then quoth her sister Dunyazad, ""H",128,rare,24841.0,4031243.0,99.38378807727543
+HC,pizza,ad a fai,8,medium,697.0,16868911.0,99.99586813873165
+HC,pizza,"ahrazad was surprised by the dawn of day and fell silent and ceased to say her permitted say. Then quoth her sister Dunyazad, ""H",128,rare,24842.0,4031243.0,99.3837632710308
 HC,pizza,"ails connected with the fleet.  Bonaparte, whose attention was c",64,medium,128.0,5439889.0,99.99764701081217
 HC,pizza,aken his life; but that only an interchange of courtesy took pla,64,rare,128.0,5689569.0,99.9977502689571
 HC,pizza,asket of gold.  ,16,medium,32.0,12126022.0,99.99973610471761
@@ -777,11 +777,11 @@ HC,pizza,"at the future might hold, roamed",32,medium,32.0,8339891.0,99.99961630
 HC,pizza,band. He untied it and examined ,32,rare,64.0,7693585.0,99.99916813813066
 HC,pizza,bows of his own boat to the land,32,medium,96.0,8062633.0,99.99880932196716
 HC,pizza,"ce of the tiles, where she builds huge nests which endanger the ",64,medium,64.0,8269276.0,99.99922605074495
-HC,pizza,cers who could t,16,medium,16.0,11201955.0,99.99985716778902
+HC,pizza,cers who could t,16,medium,17.0,11201955.0,99.99984824077583
 HC,pizza,"d, and immediately betrays the latter. These tales are apparently from the Forty Vazirs; cf. Gibbs, the 10th Vazir's Story, pp. ",128,rare,256.0,3882524.0,99.99340635112623
 HC,pizza,"d, with the impression that he w",32,medium,32.0,8231725.0,99.99961126009433
-HC,pizza,ds. To c,8,medium,103.0,17419977.0,99.99940872482208
-HC,pizza,dwell wi,8,medium,557.0,17428373.0,99.99680406197412
+HC,pizza,ds. To c,8,medium,97.0,17419977.0,99.99944316803634
+HC,pizza,dwell wi,8,medium,507.0,17428373.0,99.99709095048631
 HC,pizza,e way tomorrow if I would let hi,32,medium,32.0,7996615.0,99.99959983067835
 HC,pizza,"eak of the rise of the Rakaia, or rather of the numerous branches which form it; of their vast and wasteful beds; the glaciers t",128,rare,128.0,4756012.0,99.99730866953237
 HC,pizza,"ement; for, though the savages a",32,rare,96.0,7433152.0,99.99870848867344
@@ -790,45 +790,45 @@ HC,pizza,ercised under equal conditions with men.  We have had queens as ,64,rar
 HC,pizza,"ernacchi was the physicist, Hodgson the biologist, and Ferrar the geologist.  On August 6, 1901, the expedition left Cowes, and ",128,rare,256.0,5899807.0,99.99566087500828
 HC,pizza,"es of to-day, Swathed in fine linen cerecloths fold on fold, Wit",64,rare,64.0,5021455.0,99.99872546901247
 HC,pizza,ess of these thy Ministers. Is this of envy or is it not? They w,64,rare,128.0,4241846.0,99.99698244585022
-HC,pizza,etre of my long ,16,medium,17.0,11815577.0,99.99985612213436
+HC,pizza,etre of my long ,16,medium,16.0,11815577.0,99.99986458553822
 HC,pizza,"ey hold it as theirs, and the first Thanadar's district which they took was that of Perna, which is by the seaside. There they c",128,rare,128.0,3320055.0,99.99614464218213
 HC,pizza,ey led him off as to execution. ,32,rare,64.0,8531586.0,99.99924984639433
 HC,pizza,"g on a grass plot, and with his last breath put her in mind of h",64,medium,64.0,5868750.0,99.99890947816826
 HC,pizza,ge-feast whereof the merry-makin,32,rare,64.0,6800636.0,99.99905891154886
-HC,pizza,his neck,8,medium,4344.0,17647444.0,99.9753845372735
-HC,pizza,ho endeavoured t,16,medium,115.0,12300355.0,99.99906506763422
-HC,pizza,ht there,8,common,20724.0,19777430.0,99.89521388774982
+HC,pizza,his neck,8,medium,4322.0,17647444.0,99.97550920121917
+HC,pizza,ho endeavoured t,16,medium,113.0,12300355.0,99.99908132732754
+HC,pizza,ht there,8,common,21113.0,19777430.0,99.89324699923094
 HC,pizza,ibe-Buy ,8,rare,8.0,17133399.0,99.99995330757196
 HC,pizza,"ily bread, and you will earn your reward and recompense in Heave",64,medium,128.0,5075244.0,99.99747795376932
-HC,pizza,in Sydne,8,medium,235.0,17105149.0,99.99862614467726
-HC,pizza,ived a b,8,medium,845.0,18222906.0,99.99536297887944
+HC,pizza,in Sydne,8,medium,193.0,17105149.0,99.99887168477748
+HC,pizza,ived a b,8,medium,522.0,18222906.0,99.99713547334328
 HC,pizza,liest raiment and the twain were ready to fly for joy at reunion,64,rare,128.0,5454055.0,99.99765312230991
-HC,pizza,ly deed.,8,medium,87.0,16192294.0,99.99946270738414
+HC,pizza,ly deed.,8,medium,319.0,16192294.0,99.9980299270752
 HC,pizza,"mats, etc.: here, however, it ma",32,rare,64.0,7217827.0,99.99911330653948
 HC,pizza,"me for--""(Frere gave him an impl",32,rare,64.0,6425224.0,99.99900392577753
 HC,pizza,"n her strong head and miserable heart. She told Frank, and watch",64,medium,64.0,5381481.0,99.99881073630102
 HC,pizza,"n the wall! rats on the cellar bottom! How I ever stirred from the spot I do not know, but when I did stir, it was to go forward",128,rare,128.0,3701403.0,99.99654185183294
-HC,pizza,ndication of the,16,medium,549.0,13758429.0,99.99600971884217
+HC,pizza,ndication of the,16,medium,550.0,13758429.0,99.99600245057049
 HC,pizza,nding affluence. He fell in love with a slave-girl; so he bought her and she loved him as he loved her; and he ceased not to spe,128,rare,256.0,4361785.0,99.9941308432213
 HC,pizza,open air.  The old men are often,32,medium,64.0,8483281.0,99.99924557491376
 HC,pizza,"operas, more than a hundred colleges and universities or musical",64,medium,128.0,5598918.0,99.99771384399628
 HC,pizza,"or Don's preservation, began lou",32,rare,32.0,7840146.0,99.99959184433555
-HC,pizza,ould mak,8,medium,8525.0,16987330.0,99.94981553899288
+HC,pizza,ould mak,8,medium,8538.0,16987330.0,99.94973901136906
 HC,pizza,"p, over which, a",16,medium,32.0,11073350.0,99.99971101789431
 HC,pizza,"presence."" So he sent for her, and by reason of this, there was ",64,rare,128.0,7078016.0,99.99819158363022
-HC,pizza,prit. Th,8,medium,462.0,17676034.0,99.99738629151766
+HC,pizza,prit. Th,8,medium,393.0,17676034.0,99.99777665057671
 HC,pizza,"r monies and yet other hundred loaded with raiment of silken stuffs, sendal and brocade, besides an hundred slave-girls and a ce",128,rare,256.0,4081056.0,99.99372711376664
-HC,pizza,ree hund,8,medium,6228.0,18100301.0,99.96559173242478
+HC,pizza,ree hund,8,medium,5863.0,18100301.0,99.96760827347568
 HC,pizza,"rs would be answered, but that at all events it was his duty to be resigned to the will of God. ""Prayer is the only key that wil",128,rare,256.0,4161123.0,99.99384781464042
-HC,pizza,rying to,8,medium,19185.0,19138479.0,99.89975692425715
+HC,pizza,rying to,8,medium,19220.0,19138479.0,99.8995740466105
 HC,pizza,"s Alfred was much agitated. She was alive, and perhaps near him.",64,medium,64.0,5262159.0,99.99878376917155
 HC,pizza,"s falling--clutching, in vain, a",32,rare,64.0,6424200.0,99.999003767006
 HC,pizza,"s.  'Moose noses, buffalo tongues, bear steaks, and roasted marrow-bones would be the thing, but I don't mind a change; so bring",128,rare,384.0,4864536.0,99.99210613304126
 HC,pizza,se of their narr,16,medium,16.0,12203397.0,99.99986888896592
 HC,pizza,"sel, and got everything shipshape for the long voyage to come; but the best of all was, that we acquired valuable experience of ",128,rare,256.0,5781865.0,99.99557236289675
 HC,pizza,"sful in his attempt, and success is dear to us all.  The archdeacon had trampled upon Mr. Slope and had lifted to high honours t",128,medium,128.0,4261486.0,99.99699635291539
-HC,pizza,t of the prosper,16,medium,54.0,11199204.0,99.99951782287384
-HC,pizza,t's wife,8,rare,2480.0,17746414.0,99.98602534574027
+HC,pizza,t of the prosper,16,medium,52.0,11199204.0,99.99953568128592
+HC,pizza,t's wife,8,rare,2629.0,17746414.0,99.98518573949644
 HC,pizza,"tent and all delight of life, when Ni'amah craved leave to retur",64,rare,128.0,5712172.0,99.9977591711174
 HC,pizza,the first.  During the ensuing four years he was never out of employment. He neither advanced nor receded in the modern sense; h,128,rare,128.0,3687372.0,99.99652869306378
 HC,pizza,"the knock at the door which announced the arrival of his pretended mother made his heart jump.  ""I feel deuced shaky, Sarah,"" he",128,rare,256.0,4172020.0,99.99386388368225
@@ -838,4 +838,4 @@ HC,pizza,tter was pacing the sitting-room,32,rare,32.0,6799180.0,99.999529355010
 HC,pizza,uld not be a third. He took a bu,32,medium,32.0,7058031.0,99.99954661576295
 HC,pizza,who had sought t,16,medium,64.0,12296185.0,99.99947951336125
 HC,pizza,y places among t,16,medium,32.0,12101000.0,99.99973555904471
-HC,pizza,y the oc,8,medium,1177.0,18937695.0,99.9937848824791
+HC,pizza,y the oc,8,medium,1212.0,18937695.0,99.99360006590031
