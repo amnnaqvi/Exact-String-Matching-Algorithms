@@ -37,13 +37,13 @@ public:
         BMHMatcher::preprocess(pattern);
 
         // Step 2 — anchor selection (FBAS-specific).
-        double min_freq = 2.0;   // sentinel: higher than any real freq
+        double min_freq = 1e9;   // sentinel: higher than any real freq
         anchor_pos_ = 0;
 
         for (size_t idx = 0; idx < pattern_.size(); ++idx) {
-            char c = pattern_[idx];
+            char c = std::tolower(pattern_[idx]);
             auto it = freq_table_.find(c);
-            double freq = (it != freq_table_.end()) ? it->second : 1.0;
+            double freq = (it != freq_table_.end()) ? it->second : 50.0;
 
             if (freq < min_freq) {
                 min_freq    = freq;

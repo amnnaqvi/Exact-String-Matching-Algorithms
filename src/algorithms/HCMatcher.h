@@ -256,3 +256,6 @@ private:
     std::vector<uint64_t> F_;  // extended Bloom filter, 2^alpha 64-bit words
     size_t pattern_len_ = 0;
 };
+
+
+
