@@ -1,0 +1,841 @@
+algorithm,corpus,pattern,length,rarity_bucket,comparisons,bmh_comparisons,comparison_reduction_pct
+BMH,dante,    E po,8,medium,97469.0,97469.0,0.0
+BMH,dante,"    tal mi fecâ Ã¯o ân quella oscura costa,  perchÃ©, pensan",64,rare,31545.0,31545.0,0.0
+BMH,dante,    Â«Lâ,8,rare,84931.0,84931.0,0.0
+BMH,dante,  per la corona ,16,medium,77121.0,77121.0,0.0
+BMH,dante,  su la fiumana ,16,medium,69732.0,69732.0,0.0
+BMH,dante, Camonica e Penn,16,medium,62268.0,62268.0,0.0
+BMH,dante," altro disio, sÃ¬ che tua cura  sÃ© stessa lega sÃ¬ che fuor non",64,rare,30589.0,30589.0,0.0
+BMH,dante," colore,  nÃ© lâun nÃ© lâalt",32,rare,33492.0,33492.0,0.0
+BMH,dante, de lâ,8,rare,106900.0,106900.0,0.0
+BMH,dante," figura,",8,medium,92096.0,92096.0,0.0
+BMH,dante, fuor di quella  Ã¨ defettivo ciÃ² châÃ¨ lÃ¬ perfetto.    Omai,64,rare,27596.0,27596.0,0.0
+BMH,dante, malvagia e scempia  con la qual tu cadrai in questa valle;    c,64,rare,29193.0,29193.0,0.0
+BMH,dante," natura face in foco,  se mille volte vÃ¯olenza il torza.    Per",64,rare,29447.0,29447.0,0.0
+BMH,dante," pietÃ  mi giunse, e fui quasi s",32,rare,39754.0,39754.0,0.0
+BMH,dante," quanta Ã¨ lâarte  che mostri in cielo, in terra e nel mal mon",64,rare,30986.0,30986.0,0.0
+BMH,dante, qui sÃ¹ non ti ,16,rare,76607.0,76607.0,0.0
+BMH,dante, rana rimane e lâaltra spiccia,32,rare,43026.0,43026.0,0.0
+BMH,dante, si convenia piÃ¹ dolci salmi.  ,32,rare,57620.0,57620.0,0.0
+BMH,dante, vendemmia e ara:    di tante fiamme tutta risplendea  lâottav,64,rare,31264.0,31264.0,0.0
+BMH,dante,Canto VII      Poscia che lâaccoglienze oneste e liete  furo i,64,rare,29222.0,29222.0,0.0
+BMH,dante,"Gutenberg work, ",16,rare,67041.0,67041.0,0.0
+BMH,dante,a  lâo,8,rare,93631.0,93631.0,0.0
+BMH,dante,a dentro tutte p,16,medium,64242.0,64242.0,0.0
+BMH,dante,a e sâascondeva vosco  quelli ,32,rare,51786.0,51786.0,0.0
+BMH,dante,"a,  Â«ch",8,rare,90820.0,90820.0,0.0
+BMH,dante,bita dis,8,medium,106212.0,106212.0,0.0
+BMH,dante,"bito foco,  movendo li occhi che",32,medium,40501.0,40501.0,0.0
+BMH,dante,dal mio ,8,medium,124005.0,124005.0,0.0
+BMH,dante,"do quasi, sÃ¬ che Giove,  Mercurio e Marte a nominar trascorse. ",64,rare,34056.0,34056.0,0.0
+BMH,dante,"do sÃ¹, non pote",16,rare,60593.0,60593.0,0.0
+BMH,dante,duol pur,8,medium,99813.0,99813.0,0.0
+BMH,dante,"e Ã¨ de lâuom proprio male,  piÃ¹ spiace a Dio; e perÃ² stan d",64,rare,31271.0,31271.0,0.0
+BMH,dante,egio e l,8,medium,115427.0,115427.0,0.0
+BMH,dante,er lo fo,8,medium,106965.0,106965.0,0.0
+BMH,dante,erg  electronic works. See parag,32,rare,40134.0,40134.0,0.0
+BMH,dante,gua si scerna.    CiÃ² che narra,32,rare,41305.0,41305.0,0.0
+BMH,dante,"hia,  venendo sÃ",16,rare,63524.0,63524.0,0.0
+BMH,dante,hing for  copies,16,medium,63967.0,63967.0,0.0
+BMH,dante,"i châattende lÃ , per qui mi m",32,rare,39444.0,39444.0,0.0
+BMH,dante,i seppe nÃ© orto,16,rare,65066.0,65066.0,0.0
+BMH,dante,"ie,  sÃ¬ che notte nÃ© sonno a v",32,rare,37337.0,37337.0,0.0
+BMH,dante,inquecen,8,medium,91155.0,91155.0,0.0
+BMH,dante,ltri sca,8,common,107506.0,107506.0,0.0
+BMH,dante,mi lÃ¬ n,8,rare,103393.0,103393.0,0.0
+BMH,dante,"miltÃ , e gran t",16,rare,66265.0,66265.0,0.0
+BMH,dante,"n campo giunti coâ loro avversari,  e io pregava Iddio di quel",64,rare,27718.0,27718.0,0.0
+BMH,dante,n le suo,8,medium,105739.0,105739.0,0.0
+BMH,dante,ncor brami.    Per lei assai di ,32,medium,47403.0,47403.0,0.0
+BMH,dante,ndela;    cosÃ¬ ,16,rare,67176.0,67176.0,0.0
+BMH,dante,"no,    di che stupor dovea esser compiuto!  Certo tra esso e â",64,rare,28059.0,28059.0,0.0
+BMH,dante,no; e perÃ² non sâammiri  se n,32,rare,41435.0,41435.0,0.0
+BMH,dante,non mi desse  la,16,medium,64624.0,64624.0,0.0
+BMH,dante,nte  sâaggiugn,16,rare,53011.0,53011.0,0.0
+BMH,dante,o di maschio fem,16,medium,66675.0,66675.0,0.0
+BMH,dante,o fianco,8,medium,104780.0,104780.0,0.0
+BMH,dante,"o.          Inferno  Canto II      Lo giorno se nâandava, e lâ",64,rare,28929.0,28929.0,0.0
+BMH,dante,of the country w,16,rare,61661.0,61661.0,0.0
+BMH,dante,ome âl piÃ¹ basso face  qual t,32,rare,42325.0,42325.0,0.0
+BMH,dante,"one a le sue rime,    tal qual d",32,medium,37984.0,37984.0,0.0
+BMH,dante,"padre mio, ma disse: Â«Scocca  lâarco del dir, che ânfino al",64,rare,33181.0,33181.0,0.0
+BMH,dante,per salire al monte  dove siede la chiesa che soggioga  la ben g,64,medium,26717.0,26717.0,0.0
+BMH,dante,pregna  ,8,medium,148224.0,148224.0,0.0
+BMH,dante,"r non ha contasto a lei:  questa provede, giudica, e persegue  s",64,rare,29191.0,29191.0,0.0
+BMH,dante,ra pennuto di sei ali;  le penne piene dâocchi; e li occhi dâ,64,rare,24690.0,24690.0,0.0
+BMH,dante,"radiso  Canto XXXII      Affetto al suo piacer, quel contemplant",64,rare,32911.0,32911.0,0.0
+BMH,dante,rlo e di Ridolfo,16,medium,58036.0,58036.0,0.0
+BMH,dante,roject          Gutenberg Litera,32,rare,37644.0,37644.0,0.0
+BMH,dante,rutto;  ,8,rare,136484.0,136484.0,0.0
+BMH,dante,"se âl maestro, Â«che lâandar",32,rare,43430.0,43430.0,0.0
+BMH,dante,"se,  e tre spiriti venner sotto noi,  deâ quai nÃ© io nÃ© âl",64,rare,25019.0,25019.0,0.0
+BMH,dante,ta canti,8,common,102363.0,102363.0,0.0
+BMH,dante,"tator de la misera valle,  che p",32,medium,40943.0,40943.0,0.0
+BMH,dante,"ti con sospetti!    Vien, crudel",32,rare,40779.0,40779.0,0.0
+BMH,dante,"ti glienâ avea piÃ¹ dâuna ciocca,  latrando lui con li occhi",64,rare,28222.0,28222.0,0.0
+BMH,dante,to santoÂ».    Seguentemente int,32,rare,38266.0,38266.0,0.0
+BMH,dante,"to,  châamor di nostra vita di",32,rare,45666.0,45666.0,0.0
+BMH,dante,tre faville câ,16,rare,65315.0,65315.0,0.0
+BMH,dante,ura.    ,8,medium,144787.0,144787.0,0.0
+BMH,dante,va ne lâettern,16,rare,55329.0,55329.0,0.0
+BMH,dante, ciascun che gi,16,rare,66031.0,66031.0,0.0
+BMH,gutenberg,                                ,32,common,131256.0,131256.0,0.0
+BMH,gutenberg,  incomp,8,medium,117532.0,117532.0,0.0
+BMH,gutenberg," allowed without very much  protest. Yet, both in Mr. Addison an",64,medium,46318.0,46318.0,0.0
+BMH,gutenberg, and pla,8,medium,130322.0,130322.0,0.0
+BMH,gutenberg, comfort and elegance of their  family party at Pemberley.      ,64,medium,52593.0,52593.0,0.0
+BMH,gutenberg, creature. Who would have thought she could be so thin and small!â    âShe is abominably rude to keep Charlotte out of doors,128,rare,29819.0,29819.0,0.0
+BMH,gutenberg, do not believe she often sees such at home.â    âThe person of whom I speak is a gentleman and a stranger.â    Mrs. Benne,128,rare,27271.0,27271.0,0.0
+BMH,gutenberg, fix the problem,16,rare,78100.0,78100.0,0.0
+BMH,gutenberg," her with astonishment.    âThis is an evening of wonders, ind",64,rare,42044.0,42044.0,0.0
+BMH,gutenberg, is settled betw,16,medium,78825.0,78825.0,0.0
+BMH,gutenberg, join me,8,rare,141456.0,141456.0,0.0
+BMH,gutenberg," side, and that it  has done no ",32,medium,66688.0,66688.0,0.0
+BMH,gutenberg, stand their cha,16,medium,92269.0,92269.0,0.0
+BMH,gutenberg," that, by  his wife at least, if not by himself, such a hope was cherished. The  letter was to this effect:--         /* âMy d",128,rare,22674.0,22674.0,0.0
+BMH,gutenberg," was  always provokingly chary of description in regard to her beauties; and  except the fine eyes, and a hint or two that she h",128,rare,33125.0,33125.0,0.0
+BMH,gutenberg,"! I am sorry for her, because, w",32,rare,54827.0,54827.0,0.0
+BMH,gutenberg,998 [eBook #1342,16,rare,61593.0,61593.0,0.0
+BMH,gutenberg,; but it seems t,16,rare,88309.0,88309.0,0.0
+BMH,gutenberg,"Bingley, and a charming prospect",32,medium,60127.0,60127.0,0.0
+BMH,gutenberg,Had Elizabethâs opinion been a,32,rare,57401.0,57401.0,0.0
+BMH,gutenberg,"The two gentlemen left Rosings the next morning; and Mr. Collins having  been in waiting near the lodges, to make them his parti",128,rare,32388.0,32388.0,0.0
+BMH,gutenberg,"a delicious scheme,  and I dare say would hardly cost anything at all. Mamma would like to  go, too, of all things! Only think w",128,rare,26922.0,26922.0,0.0
+BMH,gutenberg,accepted in retu,16,medium,87006.0,87006.0,0.0
+BMH,gutenberg,"ack to Longbourn.    Mrs. Gardiner went away in all the perplexity about Elizabeth and her  Derbyshire friend, that had attended",128,rare,26819.0,26819.0,0.0
+BMH,gutenberg,al its  unfavourable beginning f,32,medium,51284.0,51284.0,0.0
+BMH,gutenberg,as most pressingly  civil in her,32,medium,56891.0,56891.0,0.0
+BMH,gutenberg,"body else; and she was, in fact,",32,rare,55609.0,55609.0,0.0
+BMH,gutenberg,"ceive it, and ac",16,medium,79454.0,79454.0,0.0
+BMH,gutenberg,"d be wiser to resist? All that I can promise you, therefore, is  not to be in a hurry. I will not be in a hurry to believe mysel",128,rare,30113.0,30113.0,0.0
+BMH,gutenberg,de is separated only by a lane  ,32,medium,71781.0,71781.0,0.0
+BMH,gutenberg,distinct,8,medium,119384.0,119384.0,0.0
+BMH,gutenberg,e  engag,8,medium,124869.0,124869.0,0.0
+BMH,gutenberg,e left h,8,medium,148648.0,148648.0,0.0
+BMH,gutenberg,e only m,8,medium,137081.0,137081.0,0.0
+BMH,gutenberg,"ed a direction of talents--talents which, rightly used,  might at least have preserved the respectability of his daughters, even",128,rare,33829.0,33829.0,0.0
+BMH,gutenberg,eeks of ,8,medium,160598.0,160598.0,0.0
+BMH,gutenberg,"ence, a perfect freedom from the idea  that all men may bully her if they choose, and that most will away with  her if they can.",128,medium,30617.0,30617.0,0.0
+BMH,gutenberg,"er for it as a woman, while she  was immensely the better for it",64,medium,43400.0,43400.0,0.0
+BMH,gutenberg,"er to the fireplace, and they both sat down. He  then said,--    âI have received a letter this morning that has astonished me",128,rare,34665.0,34665.0,0.0
+BMH,gutenberg,"er, and thus began:--    âIn vain have I struggled. It will not do. My feelings will not be  repressed. You must allow me to t",128,rare,31638.0,31638.0,0.0
+BMH,gutenberg,f.    Lady Catherine was extreme,32,rare,58784.0,58784.0,0.0
+BMH,gutenberg,g him.    The Gardiners stayed a week at Longbourn; and what wit,64,rare,39613.0,39613.0,0.0
+BMH,gutenberg,governess can give it. It is  wonderful how many families I have,64,medium,46855.0,46855.0,0.0
+BMH,gutenberg,"gracious!â cried Maria, after a few minutesâ silence, âit ",64,rare,38995.0,38995.0,0.0
+BMH,gutenberg,"had heard, soon after her arrival, that Mr. Darcy  was expected ",64,rare,43939.0,43939.0,0.0
+BMH,gutenberg,"hardly know how Mr. Collins was first introduced to her  notice,",64,medium,41019.0,41019.0,0.0
+BMH,gutenberg,hire is all the present  concern,32,medium,55343.0,55343.0,0.0
+BMH,gutenberg,hours which the discontentedness,32,medium,48144.0,48144.0,0.0
+BMH,gutenberg,ight law (does not  contain a no,32,rare,55577.0,55577.0,0.0
+BMH,gutenberg,ighted h,8,medium,153342.0,153342.0,0.0
+BMH,gutenberg,in good-humour  and good spirits,32,rare,51566.0,51566.0,0.0
+BMH,gutenberg,ing in E,8,medium,132914.0,132914.0,0.0
+BMH,gutenberg,kably  g,8,medium,129914.0,129914.0,0.0
+BMH,gutenberg,l       think of,16,medium,81865.0,81865.0,0.0
+BMH,gutenberg,"lly?â    âA thorough, determ",32,rare,48850.0,48850.0,0.0
+BMH,gutenberg,"manner, I shall certainly be reduced to tricks and stratagems to",64,medium,42597.0,42597.0,0.0
+BMH,gutenberg,"n did not vary on seeing them. Miss Bennetâs lovely face  confirmed his views, and established all his strictest notions of wh",128,rare,33452.0,33452.0,0.0
+BMH,gutenberg,n quality appear,16,rare,78885.0,78885.0,0.0
+BMH,gutenberg,"n the living fell, it was given  elsewhere.â    âGood heaven",64,rare,36119.0,36119.0,0.0
+BMH,gutenberg,n to  introduce ,16,medium,97642.0,97642.0,0.0
+BMH,gutenberg,"n very early, so",16,medium,83257.0,83257.0,0.0
+BMH,gutenberg,"nced  only once with Mrs. Hurst and once with Miss Bingley, decl",64,medium,42103.0,42103.0,0.0
+BMH,gutenberg,"ness into the village,  when she",32,medium,62226.0,62226.0,0.0
+BMH,gutenberg,"nour of dancing with  you, I was",32,medium,50005.0,50005.0,0.0
+BMH,gutenberg,"nt he entered the room. All  Elizabethâs anger against him had been long done away; but had she still  felt any, it could hard",128,rare,38553.0,38553.0,0.0
+BMH,gutenberg,ntempt w,8,medium,144224.0,144224.0,0.0
+BMH,gutenberg,nvoluntary glance showed her Darcy with a heightened  complexion,64,rare,41108.0,41108.0,0.0
+BMH,gutenberg,"on, when they we",16,medium,85628.0,85628.0,0.0
+BMH,gutenberg,other disappoint,16,medium,79942.0,79942.0,0.0
+BMH,gutenberg,"rew aside her book, and  cast her eyes round the room in quest o",64,rare,42138.0,42138.0,0.0
+BMH,gutenberg,riting. My sisters may write to _me_. They will have nothing else to  do.â    Mr. Wickhamâs adieus were much more affectiona,128,rare,35271.0,35271.0,0.0
+BMH,gutenberg,"rt so far as to conceal from him  your sisterâs being in town. I knew it myself, as it was known to Miss  Bingley; but her bro",128,rare,31165.0,31165.0,0.0
+BMH,gutenberg,"s daughter, frig",16,medium,81098.0,81098.0,0.0
+BMH,gutenberg,s own di,8,medium,135740.0,135740.0,0.0
+BMH,gutenberg,"sembled,",8,medium,113617.0,113617.0,0.0
+BMH,gutenberg,"st  conscientiously to his book, and would not even look at her.    On Sunday, after morning service, the separation, so agreeab",128,medium,33079.0,33079.0,0.0
+BMH,gutenberg,"t come and part us, I am determi",32,medium,51484.0,51484.0,0.0
+BMH,gutenberg,t do jus,8,rare,126155.0,126155.0,0.0
+BMH,gutenberg,t he will not have Lizzy.â    âAnd what am I to do on the occasion? It seems a hopeless business.â    âSpeak to Lizzy ab,128,rare,24383.0,24383.0,0.0
+BMH,gutenberg,t on the subject,16,rare,79500.0,79500.0,0.0
+BMH,gutenberg,t she co,8,medium,145671.0,145671.0,0.0
+BMH,gutenberg,t! But I,8,rare,132284.0,132284.0,0.0
+BMH,gutenberg,"termined to hate! Do not wish me such an  evil.â    When the dancing recommenced, however, and Darcy approached to claim her  ",128,rare,39981.0,39981.0,0.0
+BMH,gutenberg,that Sir,8,common,131131.0,131131.0,0.0
+BMH,gutenberg,that every advance to intimacy b,32,medium,56075.0,56075.0,0.0
+BMH,gutenberg,them.    The Gar,16,medium,75060.0,75060.0,0.0
+BMH,gutenberg,tle relieved by ,16,medium,91720.0,91720.0,0.0
+BMH,gutenberg,trange creature by way of a friend!--always wanting me  to play ,64,rare,48238.0,48238.0,0.0
+BMH,gutenberg,tween br,8,medium,133602.0,133602.0,0.0
+BMH,gutenberg,u have even now said as much to  encourage my suit as would be c,64,medium,45859.0,45859.0,0.0
+BMH,gutenberg,uch an idea had ,16,medium,101900.0,101900.0,0.0
+BMH,gutenberg,"uld be his  meaning--and asked Elizabeth whether she could at all understand him.    âNot at all,â was her answer; âbut, d",128,rare,28446.0,28446.0,0.0
+BMH,gutenberg,ur situa,8,medium,128448.0,128448.0,0.0
+BMH,gutenberg,ve heart enough to be really in ,32,medium,71084.0,71084.0,0.0
+BMH,gutenberg,ves; and then thought no more of the matter: and their  indiffer,64,rare,35595.0,35595.0,0.0
+BMH,gutenberg,"warmth, as left no doubt of his good information;  and he soon a",64,rare,44760.0,44760.0,0.0
+BMH,gutenberg,was now employment for the whole  party; for though they could n,64,rare,36949.0,36949.0,0.0
+BMH,gutenberg,"where secrecy  was possible, except to Elizabeth; and from all B",64,rare,41654.0,41654.0,0.0
+BMH,gutenberg,âs departure s,16,rare,92619.0,92619.0,0.0
+BMH,gutenberg,â    It may be,16,rare,76729.0,76729.0,0.0
+BMH,pizza,     Nod,8,common,16265825.0,16265825.0,0.0
+BMH,pizza,   Story of the ,16,medium,16100751.0,16100751.0,0.0
+BMH,pizza,"  ""What ",8,rare,20017323.0,20017323.0,0.0
+BMH,pizza,  1.62.  A MAYOR,16,rare,7614361.0,7614361.0,0.0
+BMH,pizza,  I don't know what it can ever ,32,rare,8897933.0,8897933.0,0.0
+BMH,pizza," a member of his family that he did not want the bother of ""buyi",64,rare,5049803.0,5049803.0,0.0
+BMH,pizza, a very active part in all that ,32,medium,8474558.0,8474558.0,0.0
+BMH,pizza, arid Moslem rea,16,medium,12211099.0,12211099.0,0.0
+BMH,pizza, breasted the stream and ceased not swimming with them until it reached the farther side. There Yusuf dismounted and knocked at ,128,medium,5041036.0,5041036.0,0.0
+BMH,pizza, clank.  You've ,16,rare,11858307.0,11858307.0,0.0
+BMH,pizza," drive Richard Hardie to despair.""  ""No, no,"" implored Peggy; ""t",64,rare,4529595.0,4529595.0,0.0
+BMH,pizza, far was the anxiety experienced on that score by the King of Na,64,rare,5713854.0,5713854.0,0.0
+BMH,pizza, from my sister ,16,medium,13263173.0,13263173.0,0.0
+BMH,pizza, he depe,8,medium,18301406.0,18301406.0,0.0
+BMH,pizza, his good-humour,16,rare,8887847.0,8887847.0,0.0
+BMH,pizza," little importance ... no dolmens, menhirs, or ancient circles have been discovered in Judaea, and only one doubtful circle in S",128,rare,3369263.0,3369263.0,0.0
+BMH,pizza, noticed.  [FN#41] He had now le,32,rare,7612506.0,7612506.0,0.0
+BMH,pizza," other than Marjanah killed thy daughter, for she hated her in secret;"" and she continued to her son, ""Fret not for taking the b",128,rare,3459598.0,3459598.0,0.0
+BMH,pizza, politic,8,medium,15865934.0,15865934.0,0.0
+BMH,pizza," surprise, not to say horror of her daughter, and she actually f",64,medium,5140227.0,5140227.0,0.0
+BMH,pizza," these four only.  'Whither have they gone, and my host also?' cried Manawyddan, and they searched the hall, and there was no ma",128,rare,4201188.0,4201188.0,0.0
+BMH,pizza,!  I know what y,16,rare,11035756.0,11035756.0,0.0
+BMH,pizza,"""Yes.""  ",8,rare,20442256.0,20442256.0,0.0
+BMH,pizza,.  On the 26th Camilla came back,32,rare,6138264.0,6138264.0,0.0
+BMH,pizza,": for I fear thine accompanying me, without having his permission, lest he take umbrage at me seeing thee in my society."" Now wh",128,rare,3964626.0,3964626.0,0.0
+BMH,pizza,"Allah, the Compassionating, the ",32,medium,11323607.0,11323607.0,0.0
+BMH,pizza,But will it not be more honourable for you to begin?'  'No; I th,64,rare,5025216.0,5025216.0,0.0
+BMH,pizza,Germans. Bungler,16,medium,10803182.0,10803182.0,0.0
+BMH,pizza,across to anothe,16,medium,12861155.0,12861155.0,0.0
+BMH,pizza,ad a fai,8,medium,16868911.0,16868911.0,0.0
+BMH,pizza,"ahrazad was surprised by the dawn of day and fell silent and ceased to say her permitted say. Then quoth her sister Dunyazad, ""H",128,rare,4031243.0,4031243.0,0.0
+BMH,pizza,"ails connected with the fleet.  Bonaparte, whose attention was c",64,medium,5439889.0,5439889.0,0.0
+BMH,pizza,aken his life; but that only an interchange of courtesy took pla,64,rare,5689569.0,5689569.0,0.0
+BMH,pizza,asket of gold.  ,16,medium,12126022.0,12126022.0,0.0
+BMH,pizza,"at the future might hold, roamed",32,medium,8339891.0,8339891.0,0.0
+BMH,pizza,band. He untied it and examined ,32,rare,7693585.0,7693585.0,0.0
+BMH,pizza,bows of his own boat to the land,32,medium,8062633.0,8062633.0,0.0
+BMH,pizza,"ce of the tiles, where she builds huge nests which endanger the ",64,medium,8269276.0,8269276.0,0.0
+BMH,pizza,cers who could t,16,medium,11201955.0,11201955.0,0.0
+BMH,pizza,"d, and immediately betrays the latter. These tales are apparently from the Forty Vazirs; cf. Gibbs, the 10th Vazir's Story, pp. ",128,rare,3882524.0,3882524.0,0.0
+BMH,pizza,"d, with the impression that he w",32,medium,8231725.0,8231725.0,0.0
+BMH,pizza,ds. To c,8,medium,17419977.0,17419977.0,0.0
+BMH,pizza,dwell wi,8,medium,17428373.0,17428373.0,0.0
+BMH,pizza,e way tomorrow if I would let hi,32,medium,7996615.0,7996615.0,0.0
+BMH,pizza,"eak of the rise of the Rakaia, or rather of the numerous branches which form it; of their vast and wasteful beds; the glaciers t",128,rare,4756012.0,4756012.0,0.0
+BMH,pizza,"ement; for, though the savages a",32,rare,7433152.0,7433152.0,0.0
+BMH,pizza,"eming man, and I don't like him.""  Even at that time Bonaparte h",64,rare,5084353.0,5084353.0,0.0
+BMH,pizza,ercised under equal conditions with men.  We have had queens as ,64,rare,6007333.0,6007333.0,0.0
+BMH,pizza,"ernacchi was the physicist, Hodgson the biologist, and Ferrar the geologist.  On August 6, 1901, the expedition left Cowes, and ",128,rare,5899807.0,5899807.0,0.0
+BMH,pizza,"es of to-day, Swathed in fine linen cerecloths fold on fold, Wit",64,rare,5021455.0,5021455.0,0.0
+BMH,pizza,ess of these thy Ministers. Is this of envy or is it not? They w,64,rare,4241846.0,4241846.0,0.0
+BMH,pizza,etre of my long ,16,medium,11815577.0,11815577.0,0.0
+BMH,pizza,"ey hold it as theirs, and the first Thanadar's district which they took was that of Perna, which is by the seaside. There they c",128,rare,3320055.0,3320055.0,0.0
+BMH,pizza,ey led him off as to execution. ,32,rare,8531586.0,8531586.0,0.0
+BMH,pizza,"g on a grass plot, and with his last breath put her in mind of h",64,medium,5868750.0,5868750.0,0.0
+BMH,pizza,ge-feast whereof the merry-makin,32,rare,6800636.0,6800636.0,0.0
+BMH,pizza,his neck,8,medium,17647444.0,17647444.0,0.0
+BMH,pizza,ho endeavoured t,16,medium,12300355.0,12300355.0,0.0
+BMH,pizza,ht there,8,common,19777430.0,19777430.0,0.0
+BMH,pizza,ibe-Buy ,8,rare,17133399.0,17133399.0,0.0
+BMH,pizza,"ily bread, and you will earn your reward and recompense in Heave",64,medium,5075244.0,5075244.0,0.0
+BMH,pizza,in Sydne,8,medium,17105149.0,17105149.0,0.0
+BMH,pizza,ived a b,8,medium,18222906.0,18222906.0,0.0
+BMH,pizza,liest raiment and the twain were ready to fly for joy at reunion,64,rare,5454055.0,5454055.0,0.0
+BMH,pizza,ly deed.,8,medium,16192294.0,16192294.0,0.0
+BMH,pizza,"mats, etc.: here, however, it ma",32,rare,7217827.0,7217827.0,0.0
+BMH,pizza,"me for--""(Frere gave him an impl",32,rare,6425224.0,6425224.0,0.0
+BMH,pizza,"n her strong head and miserable heart. She told Frank, and watch",64,medium,5381481.0,5381481.0,0.0
+BMH,pizza,"n the wall! rats on the cellar bottom! How I ever stirred from the spot I do not know, but when I did stir, it was to go forward",128,rare,3701403.0,3701403.0,0.0
+BMH,pizza,ndication of the,16,medium,13758429.0,13758429.0,0.0
+BMH,pizza,nding affluence. He fell in love with a slave-girl; so he bought her and she loved him as he loved her; and he ceased not to spe,128,rare,4361785.0,4361785.0,0.0
+BMH,pizza,open air.  The old men are often,32,medium,8483281.0,8483281.0,0.0
+BMH,pizza,"operas, more than a hundred colleges and universities or musical",64,medium,5598918.0,5598918.0,0.0
+BMH,pizza,"or Don's preservation, began lou",32,rare,7840146.0,7840146.0,0.0
+BMH,pizza,ould mak,8,medium,16987330.0,16987330.0,0.0
+BMH,pizza,"p, over which, a",16,medium,11073350.0,11073350.0,0.0
+BMH,pizza,"presence."" So he sent for her, and by reason of this, there was ",64,rare,7078016.0,7078016.0,0.0
+BMH,pizza,prit. Th,8,medium,17676034.0,17676034.0,0.0
+BMH,pizza,"r monies and yet other hundred loaded with raiment of silken stuffs, sendal and brocade, besides an hundred slave-girls and a ce",128,rare,4081056.0,4081056.0,0.0
+BMH,pizza,ree hund,8,medium,18100301.0,18100301.0,0.0
+BMH,pizza,"rs would be answered, but that at all events it was his duty to be resigned to the will of God. ""Prayer is the only key that wil",128,rare,4161123.0,4161123.0,0.0
+BMH,pizza,rying to,8,medium,19138479.0,19138479.0,0.0
+BMH,pizza,"s Alfred was much agitated. She was alive, and perhaps near him.",64,medium,5262159.0,5262159.0,0.0
+BMH,pizza,"s falling--clutching, in vain, a",32,rare,6424200.0,6424200.0,0.0
+BMH,pizza,"s.  'Moose noses, buffalo tongues, bear steaks, and roasted marrow-bones would be the thing, but I don't mind a change; so bring",128,rare,4864536.0,4864536.0,0.0
+BMH,pizza,se of their narr,16,medium,12203397.0,12203397.0,0.0
+BMH,pizza,"sel, and got everything shipshape for the long voyage to come; but the best of all was, that we acquired valuable experience of ",128,rare,5781865.0,5781865.0,0.0
+BMH,pizza,"sful in his attempt, and success is dear to us all.  The archdeacon had trampled upon Mr. Slope and had lifted to high honours t",128,medium,4261486.0,4261486.0,0.0
+BMH,pizza,t of the prosper,16,medium,11199204.0,11199204.0,0.0
+BMH,pizza,t's wife,8,rare,17746414.0,17746414.0,0.0
+BMH,pizza,"tent and all delight of life, when Ni'amah craved leave to retur",64,rare,5712172.0,5712172.0,0.0
+BMH,pizza,the first.  During the ensuing four years he was never out of employment. He neither advanced nor receded in the modern sense; h,128,rare,3687372.0,3687372.0,0.0
+BMH,pizza,"the knock at the door which announced the arrival of his pretended mother made his heart jump.  ""I feel deuced shaky, Sarah,"" he",128,rare,4172020.0,4172020.0,0.0
+BMH,pizza,"think they must have maids and social status--whatever that is--and so on.  It can't be done on mother's income.""  ""That quality",128,rare,3972124.0,3972124.0,0.0
+BMH,pizza,ting him on the ,16,medium,16820706.0,16820706.0,0.0
+BMH,pizza,tter was pacing the sitting-room,32,rare,6799180.0,6799180.0,0.0
+BMH,pizza,uld not be a third. He took a bu,32,medium,7058031.0,7058031.0,0.0
+BMH,pizza,who had sought t,16,medium,12296185.0,12296185.0,0.0
+BMH,pizza,y places among t,16,medium,12101000.0,12101000.0,0.0
+BMH,pizza,y the oc,8,medium,18937695.0,18937695.0,0.0
+FBAS,dante,    E po,8,medium,94290.0,97469.0,3.2615498260985545
+FBAS,dante,"    tal mi fecâ Ã¯o ân quella oscura costa,  perchÃ©, pensan",64,rare,29738.0,31545.0,5.728324615628467
+FBAS,dante,    Â«Lâ,8,rare,84090.0,84931.0,0.9902155867704372
+FBAS,dante,  per la corona ,16,medium,64379.0,77121.0,16.522088665862736
+FBAS,dante,  su la fiumana ,16,medium,56360.0,69732.0,19.17627488097287
+FBAS,dante, Camonica e Penn,16,medium,62500.0,62268.0,-0.37258302820068095
+FBAS,dante," altro disio, sÃ¬ che tua cura  sÃ© stessa lega sÃ¬ che fuor non",64,rare,28625.0,30589.0,6.420608715551342
+FBAS,dante," colore,  nÃ© lâun nÃ© lâalt",32,rare,32230.0,33492.0,3.7680640152872327
+FBAS,dante, de lâ,8,rare,101996.0,106900.0,4.587464920486436
+FBAS,dante," figura,",8,medium,93741.0,92096.0,-1.786179638637943
+FBAS,dante, fuor di quella  Ã¨ defettivo ciÃ² châÃ¨ lÃ¬ perfetto.    Omai,64,rare,26375.0,27596.0,4.424554283229454
+FBAS,dante, malvagia e scempia  con la qual tu cadrai in questa valle;    c,64,rare,26909.0,29193.0,7.823793375124174
+FBAS,dante," natura face in foco,  se mille volte vÃ¯olenza il torza.    Per",64,rare,27248.0,29447.0,7.467653750806534
+FBAS,dante," pietÃ  mi giunse, e fui quasi s",32,rare,37633.0,39754.0,5.335312169844544
+FBAS,dante," quanta Ã¨ lâarte  che mostri in cielo, in terra e nel mal mon",64,rare,29708.0,30986.0,4.124443296972826
+FBAS,dante, qui sÃ¹ non ti ,16,rare,62545.0,76607.0,18.356024906340153
+FBAS,dante, rana rimane e lâaltra spiccia,32,rare,41686.0,43026.0,3.1143959466369173
+FBAS,dante, si convenia piÃ¹ dolci salmi.  ,32,rare,43322.0,57620.0,24.814300590072893
+FBAS,dante, vendemmia e ara:    di tante fiamme tutta risplendea  lâottav,64,rare,31298.0,31264.0,-0.10875127942681678
+FBAS,dante,Canto VII      Poscia che lâaccoglienze oneste e liete  furo i,64,rare,27479.0,29222.0,5.964684142084731
+FBAS,dante,"Gutenberg work, ",16,rare,53790.0,67041.0,19.765516624155367
+FBAS,dante,a  lâo,8,rare,94640.0,93631.0,-1.0776345441146629
+FBAS,dante,a dentro tutte p,16,medium,63668.0,64242.0,0.8934964664860995
+FBAS,dante,a e sâascondeva vosco  quelli ,32,rare,41468.0,51786.0,19.924303865909707
+FBAS,dante,"a,  Â«ch",8,rare,92983.0,90820.0,-2.3816340013212947
+FBAS,dante,bita dis,8,medium,101130.0,106212.0,4.784770082476556
+FBAS,dante,"bito foco,  movendo li occhi che",32,medium,35421.0,40501.0,12.542900175304313
+FBAS,dante,dal mio ,8,medium,104399.0,124005.0,15.810652796258216
+FBAS,dante,"do quasi, sÃ¬ che Giove,  Mercurio e Marte a nominar trascorse. ",64,rare,27622.0,34056.0,18.89241249706366
+FBAS,dante,"do sÃ¹, non pote",16,rare,56586.0,60593.0,6.6129750961332165
+FBAS,dante,duol pur,8,medium,96238.0,99813.0,3.5816977748389487
+FBAS,dante,"e Ã¨ de lâuom proprio male,  piÃ¹ spiace a Dio; e perÃ² stan d",64,rare,30341.0,31271.0,2.9740014710114804
+FBAS,dante,egio e l,8,medium,110457.0,115427.0,4.305751687213563
+FBAS,dante,er lo fo,8,medium,101164.0,106965.0,5.423269293694199
+FBAS,dante,erg  electronic works. See parag,32,rare,39516.0,40134.0,1.5398415308715803
+FBAS,dante,gua si scerna.    CiÃ² che narra,32,rare,37828.0,41305.0,8.417867086309164
+FBAS,dante,"hia,  venendo sÃ",16,rare,63648.0,63524.0,-0.19520181348781562
+FBAS,dante,hing for  copies,16,medium,61803.0,63967.0,3.382994356465052
+FBAS,dante,"i châattende lÃ , per qui mi m",32,rare,38526.0,39444.0,2.3273501673258292
+FBAS,dante,i seppe nÃ© orto,16,rare,61248.0,65066.0,5.867887990655642
+FBAS,dante,"ie,  sÃ¬ che notte nÃ© sonno a v",32,rare,37179.0,37337.0,0.4231727241074537
+FBAS,dante,inquecen,8,medium,86911.0,91155.0,4.655806044649224
+FBAS,dante,ltri sca,8,common,107567.0,107506.0,-0.05674101910591037
+FBAS,dante,mi lÃ¬ n,8,rare,103622.0,103393.0,-0.22148501349220934
+FBAS,dante,"miltÃ , e gran t",16,rare,64833.0,66265.0,2.161020146381951
+FBAS,dante,"n campo giunti coâ loro avversari,  e io pregava Iddio di quel",64,rare,26123.0,27718.0,5.754383433148135
+FBAS,dante,n le suo,8,medium,104709.0,105739.0,0.9740965963362619
+FBAS,dante,ncor brami.    Per lei assai di ,32,medium,37373.0,47403.0,21.158998375630233
+FBAS,dante,ndela;    cosÃ¬ ,16,rare,57654.0,67176.0,14.17470525187567
+FBAS,dante,"no,    di che stupor dovea esser compiuto!  Certo tra esso e â",64,rare,25555.0,28059.0,8.924052888556256
+FBAS,dante,no; e perÃ² non sâammiri  se n,32,rare,40360.0,41435.0,2.5944250030167733
+FBAS,dante,non mi desse  la,16,medium,61078.0,64624.0,5.487125526120327
+FBAS,dante,nte  sâaggiugn,16,rare,51535.0,53011.0,2.784327781026579
+FBAS,dante,o di maschio fem,16,medium,66638.0,66675.0,0.05549306336707911
+FBAS,dante,o fianco,8,medium,97704.0,104780.0,6.753197175033403
+FBAS,dante,"o.          Inferno  Canto II      Lo giorno se nâandava, e lâ",64,rare,28373.0,28929.0,1.9219468353555256
+FBAS,dante,of the country w,16,rare,61637.0,61661.0,0.03892249558067498
+FBAS,dante,ome âl piÃ¹ basso face  qual t,32,rare,41094.0,42325.0,2.908446544595393
+FBAS,dante,"one a le sue rime,    tal qual d",32,medium,36678.0,37984.0,3.438289806234204
+FBAS,dante,"padre mio, ma disse: Â«Scocca  lâarco del dir, che ânfino al",64,rare,31919.0,33181.0,3.803381453241313
+FBAS,dante,per salire al monte  dove siede la chiesa che soggioga  la ben g,64,medium,26664.0,26717.0,0.1983755661189505
+FBAS,dante,pregna  ,8,medium,113460.0,148224.0,23.45369170984456
+FBAS,dante,"r non ha contasto a lei:  questa provede, giudica, e persegue  s",64,rare,27669.0,29191.0,5.213935802130794
+FBAS,dante,ra pennuto di sei ali;  le penne piene dâocchi; e li occhi dâ,64,rare,23511.0,24690.0,4.775212636695018
+FBAS,dante,"radiso  Canto XXXII      Affetto al suo piacer, quel contemplant",64,rare,30863.0,32911.0,6.222843426210082
+FBAS,dante,rlo e di Ridolfo,16,medium,55220.0,58036.0,4.852160727824109
+FBAS,dante,roject          Gutenberg Litera,32,rare,34391.0,37644.0,8.641483370523854
+FBAS,dante,rutto;  ,8,rare,105619.0,136484.0,22.61437238064535
+FBAS,dante,"se âl maestro, Â«che lâandar",32,rare,42268.0,43430.0,2.6755698825696523
+FBAS,dante,"se,  e tre spiriti venner sotto noi,  deâ quai nÃ© io nÃ© âl",64,rare,23825.0,25019.0,4.772372996522643
+FBAS,dante,ta canti,8,common,101807.0,102363.0,0.5431650107949161
+FBAS,dante,"tator de la misera valle,  che p",32,medium,39481.0,40943.0,3.5708179664411497
+FBAS,dante,"ti con sospetti!    Vien, crudel",32,rare,40454.0,40779.0,0.7969788371465706
+FBAS,dante,"ti glienâ avea piÃ¹ dâuna ciocca,  latrando lui con li occhi",64,rare,26295.0,28222.0,6.828006519736376
+FBAS,dante,to santoÂ».    Seguentemente int,32,rare,36542.0,38266.0,4.505304970469869
+FBAS,dante,"to,  châamor di nostra vita di",32,rare,42167.0,45666.0,7.6621556519073275
+FBAS,dante,tre faville câ,16,rare,59313.0,65315.0,9.189313327719512
+FBAS,dante,ura.    ,8,medium,101249.0,144787.0,30.07037924675558
+FBAS,dante,va ne lâettern,16,rare,54324.0,55329.0,1.816407309006127
+FBAS,dante, ciascun che gi,16,rare,63312.0,66031.0,4.117762868955491
+FBAS,gutenberg,                                ,32,common,88214.0,131256.0,32.79240568050223
+FBAS,gutenberg,  incomp,8,medium,117164.0,117532.0,0.3131062178810877
+FBAS,gutenberg," allowed without very much  protest. Yet, both in Mr. Addison an",64,medium,42475.0,46318.0,8.296990370914115
+FBAS,gutenberg, and pla,8,medium,126772.0,130322.0,2.72402203772195
+FBAS,gutenberg, comfort and elegance of their  family party at Pemberley.      ,64,medium,31302.0,52593.0,40.48257372654155
+FBAS,gutenberg, creature. Who would have thought she could be so thin and small!â    âShe is abominably rude to keep Charlotte out of doors,128,rare,28959.0,29819.0,2.8840672054730208
+FBAS,gutenberg, do not believe she often sees such at home.â    âThe person of whom I speak is a gentleman and a stranger.â    Mrs. Benne,128,rare,24317.0,27271.0,10.83201936122621
+FBAS,gutenberg, fix the problem,16,rare,76803.0,78100.0,1.6606914212548016
+FBAS,gutenberg," her with astonishment.    âThis is an evening of wonders, ind",64,rare,40468.0,42044.0,3.7484540005708307
+FBAS,gutenberg, is settled betw,16,medium,80401.0,78825.0,-1.9993656834760545
+FBAS,gutenberg, join me,8,rare,128242.0,141456.0,9.341420653772198
+FBAS,gutenberg," side, and that it  has done no ",32,medium,55510.0,66688.0,16.761636276391556
+FBAS,gutenberg, stand their cha,16,medium,89509.0,92269.0,2.991253833898709
+FBAS,gutenberg," that, by  his wife at least, if not by himself, such a hope was cherished. The  letter was to this effect:--         /* âMy d",128,rare,21971.0,22674.0,3.100467495810179
+FBAS,gutenberg," was  always provokingly chary of description in regard to her beauties; and  except the fine eyes, and a hint or two that she h",128,rare,30762.0,33125.0,7.133584905660378
+FBAS,gutenberg,"! I am sorry for her, because, w",32,rare,52988.0,54827.0,3.3541868057708792
+FBAS,gutenberg,998 [eBook #1342,16,rare,62185.0,61593.0,-0.9611481824233273
+FBAS,gutenberg,; but it seems t,16,rare,82633.0,88309.0,6.42743095267753
+FBAS,gutenberg,"Bingley, and a charming prospect",32,medium,57153.0,60127.0,4.946197215893027
+FBAS,gutenberg,Had Elizabethâs opinion been a,32,rare,52870.0,57401.0,7.893590703994704
+FBAS,gutenberg,"The two gentlemen left Rosings the next morning; and Mr. Collins having  been in waiting near the lodges, to make them his parti",128,rare,30444.0,32388.0,6.002223045572435
+FBAS,gutenberg,"a delicious scheme,  and I dare say would hardly cost anything at all. Mamma would like to  go, too, of all things! Only think w",128,rare,26139.0,26922.0,2.908402050367729
+FBAS,gutenberg,accepted in retu,16,medium,87208.0,87006.0,-0.23216789646691033
+FBAS,gutenberg,"ack to Longbourn.    Mrs. Gardiner went away in all the perplexity about Elizabeth and her  Derbyshire friend, that had attended",128,rare,25495.0,26819.0,4.936798538349677
+FBAS,gutenberg,al its  unfavourable beginning f,32,medium,50733.0,51284.0,1.0744091724514468
+FBAS,gutenberg,as most pressingly  civil in her,32,medium,51579.0,56891.0,9.337153504069185
+FBAS,gutenberg,"body else; and she was, in fact,",32,rare,56226.0,55609.0,-1.109532629610315
+FBAS,gutenberg,"ceive it, and ac",16,medium,79730.0,79454.0,-0.34737080574923856
+FBAS,gutenberg,"d be wiser to resist? All that I can promise you, therefore, is  not to be in a hurry. I will not be in a hurry to believe mysel",128,rare,29479.0,30113.0,2.105402982100754
+FBAS,gutenberg,de is separated only by a lane  ,32,medium,53449.0,71781.0,25.538791602234575
+FBAS,gutenberg,distinct,8,medium,116043.0,119384.0,2.7985324666621993
+FBAS,gutenberg,e  engag,8,medium,127334.0,124869.0,-1.9740688241276858
+FBAS,gutenberg,e left h,8,medium,143851.0,148648.0,3.2270868091060763
+FBAS,gutenberg,e only m,8,medium,139080.0,137081.0,-1.4582619035460787
+FBAS,gutenberg,"ed a direction of talents--talents which, rightly used,  might at least have preserved the respectability of his daughters, even",128,rare,31252.0,33829.0,7.617724437612699
+FBAS,gutenberg,eeks of ,8,medium,128097.0,160598.0,20.2374873908766
+FBAS,gutenberg,"ence, a perfect freedom from the idea  that all men may bully her if they choose, and that most will away with  her if they can.",128,medium,30598.0,30617.0,0.062057027141783974
+FBAS,gutenberg,"er for it as a woman, while she  was immensely the better for it",64,medium,41224.0,43400.0,5.013824884792626
+FBAS,gutenberg,"er to the fireplace, and they both sat down. He  then said,--    âI have received a letter this morning that has astonished me",128,rare,31375.0,34665.0,9.49084090581278
+FBAS,gutenberg,"er, and thus began:--    âIn vain have I struggled. It will not do. My feelings will not be  repressed. You must allow me to t",128,rare,28533.0,31638.0,9.814147544092547
+FBAS,gutenberg,f.    Lady Catherine was extreme,32,rare,53273.0,58784.0,9.375
+FBAS,gutenberg,g him.    The Gardiners stayed a week at Longbourn; and what wit,64,rare,36940.0,39613.0,6.7477848181152655
+FBAS,gutenberg,governess can give it. It is  wonderful how many families I have,64,medium,41943.0,46855.0,10.483406253334756
+FBAS,gutenberg,"gracious!â cried Maria, after a few minutesâ silence, âit ",64,rare,32054.0,38995.0,17.799717912552893
+FBAS,gutenberg,"had heard, soon after her arrival, that Mr. Darcy  was expected ",64,rare,34579.0,43939.0,21.302259951296115
+FBAS,gutenberg,"hardly know how Mr. Collins was first introduced to her  notice,",64,medium,41064.0,41019.0,-0.10970525853872595
+FBAS,gutenberg,hire is all the present  concern,32,medium,54063.0,55343.0,2.3128489601214244
+FBAS,gutenberg,hours which the discontentedness,32,medium,46876.0,48144.0,2.6337653705550017
+FBAS,gutenberg,ight law (does not  contain a no,32,rare,52984.0,55577.0,4.6655990787556005
+FBAS,gutenberg,ighted h,8,medium,148406.0,153342.0,3.218948494215544
+FBAS,gutenberg,in good-humour  and good spirits,32,rare,49405.0,51566.0,4.190745840282356
+FBAS,gutenberg,ing in E,8,medium,139677.0,132914.0,-5.088252554283221
+FBAS,gutenberg,kably  g,8,medium,128759.0,129914.0,0.8890496790184276
+FBAS,gutenberg,l       think of,16,medium,78580.0,81865.0,4.0127038416905885
+FBAS,gutenberg,"lly?â    âA thorough, determ",32,rare,49556.0,48850.0,-1.4452405322415558
+FBAS,gutenberg,"manner, I shall certainly be reduced to tricks and stratagems to",64,medium,38834.0,42597.0,8.833955442871563
+FBAS,gutenberg,"n did not vary on seeing them. Miss Bennetâs lovely face  confirmed his views, and established all his strictest notions of wh",128,rare,31564.0,33452.0,5.643907688628483
+FBAS,gutenberg,n quality appear,16,rare,74137.0,78885.0,6.018888255054827
+FBAS,gutenberg,"n the living fell, it was given  elsewhere.â    âGood heaven",64,rare,34427.0,36119.0,4.684515075168194
+FBAS,gutenberg,n to  introduce ,16,medium,80904.0,97642.0,17.142213391778128
+FBAS,gutenberg,"n very early, so",16,medium,78243.0,83257.0,6.022316441860744
+FBAS,gutenberg,"nced  only once with Mrs. Hurst and once with Miss Bingley, decl",64,medium,41486.0,42103.0,1.4654537681400375
+FBAS,gutenberg,"ness into the village,  when she",32,medium,54102.0,62226.0,13.055635907819882
+FBAS,gutenberg,"nour of dancing with  you, I was",32,medium,47063.0,50005.0,5.883411658834117
+FBAS,gutenberg,"nt he entered the room. All  Elizabethâs anger against him had been long done away; but had she still  felt any, it could hard",128,rare,37295.0,38553.0,3.263040489715457
+FBAS,gutenberg,ntempt w,8,medium,141779.0,144224.0,1.695279565120923
+FBAS,gutenberg,nvoluntary glance showed her Darcy with a heightened  complexion,64,rare,37705.0,41108.0,8.278194025493821
+FBAS,gutenberg,"on, when they we",16,medium,79169.0,85628.0,7.543093380669874
+FBAS,gutenberg,other disappoint,16,medium,74903.0,79942.0,6.303319906932526
+FBAS,gutenberg,"rew aside her book, and  cast her eyes round the room in quest o",64,rare,39322.0,42138.0,6.682804119796858
+FBAS,gutenberg,riting. My sisters may write to _me_. They will have nothing else to  do.â    Mr. Wickhamâs adieus were much more affectiona,128,rare,33643.0,35271.0,4.615689943579711
+FBAS,gutenberg,"rt so far as to conceal from him  your sisterâs being in town. I knew it myself, as it was known to Miss  Bingley; but her bro",128,rare,29959.0,31165.0,3.8697256537782767
+FBAS,gutenberg,"s daughter, frig",16,medium,82532.0,81098.0,-1.7682310291252559
+FBAS,gutenberg,s own di,8,medium,132115.0,135740.0,2.6705466332694856
+FBAS,gutenberg,"sembled,",8,medium,113018.0,113617.0,0.5272098365561492
+FBAS,gutenberg,"st  conscientiously to his book, and would not even look at her.    On Sunday, after morning service, the separation, so agreeab",128,medium,32990.0,33079.0,0.26905287342422685
+FBAS,gutenberg,"t come and part us, I am determi",32,medium,50054.0,51484.0,2.7775619609975917
+FBAS,gutenberg,t do jus,8,rare,119839.0,126155.0,5.0065395743331615
+FBAS,gutenberg,t he will not have Lizzy.â    âAnd what am I to do on the occasion? It seems a hopeless business.â    âSpeak to Lizzy ab,128,rare,24080.0,24383.0,1.2426690727145961
+FBAS,gutenberg,t on the subject,16,rare,73077.0,79500.0,8.079245283018867
+FBAS,gutenberg,t she co,8,medium,137889.0,145671.0,5.34217517556686
+FBAS,gutenberg,t! But I,8,rare,131336.0,132284.0,0.7166399564573191
+FBAS,gutenberg,"termined to hate! Do not wish me such an  evil.â    When the dancing recommenced, however, and Darcy approached to claim her  ",128,rare,30246.0,39981.0,24.349065806257972
+FBAS,gutenberg,that Sir,8,common,131731.0,131131.0,-0.4575577094661064
+FBAS,gutenberg,that every advance to intimacy b,32,medium,55219.0,56075.0,1.52652697280428
+FBAS,gutenberg,them.    The Gar,16,medium,71774.0,75060.0,4.37783106847855
+FBAS,gutenberg,tle relieved by ,16,medium,75748.0,91720.0,17.413868294810293
+FBAS,gutenberg,trange creature by way of a friend!--always wanting me  to play ,64,rare,39278.0,48238.0,18.574567768149592
+FBAS,gutenberg,tween br,8,medium,131271.0,133602.0,1.744734360264068
+FBAS,gutenberg,u have even now said as much to  encourage my suit as would be c,64,medium,44731.0,45859.0,2.459713469547962
+FBAS,gutenberg,uch an idea had ,16,medium,83577.0,101900.0,17.98135426889107
+FBAS,gutenberg,"uld be his  meaning--and asked Elizabeth whether she could at all understand him.    âNot at all,â was her answer; âbut, d",128,rare,27592.0,28446.0,3.002179568304858
+FBAS,gutenberg,ur situa,8,medium,126710.0,128448.0,1.35307673143996
+FBAS,gutenberg,ve heart enough to be really in ,32,medium,58469.0,71084.0,17.74660964492713
+FBAS,gutenberg,ves; and then thought no more of the matter: and their  indiffer,64,rare,33536.0,35595.0,5.784520297794634
+FBAS,gutenberg,"warmth, as left no doubt of his good information;  and he soon a",64,rare,41579.0,44760.0,7.106791778373548
+FBAS,gutenberg,was now employment for the whole  party; for though they could n,64,rare,35165.0,36949.0,4.828276813986847
+FBAS,gutenberg,"where secrecy  was possible, except to Elizabeth; and from all B",64,rare,41710.0,41654.0,-0.13444087002448746
+FBAS,gutenberg,âs departure s,16,rare,89015.0,92619.0,3.891210226843304
+FBAS,gutenberg,â    It may be,16,rare,69850.0,76729.0,8.965319501101279
+FBAS,pizza,     Nod,8,common,16355199.0,16265825.0,-0.5494587578558112
+FBAS,pizza,   Story of the ,16,medium,11414177.0,16100751.0,29.10779751826483
+FBAS,pizza,"  ""What ",8,rare,16220774.0,20017323.0,18.9663173242496
+FBAS,pizza,  1.62.  A MAYOR,16,rare,7691670.0,7614361.0,-1.015305158239805
+FBAS,pizza,  I don't know what it can ever ,32,rare,7275511.0,8897933.0,18.233695398695406
+FBAS,pizza," a member of his family that he did not want the bother of ""buyi",64,rare,4874004.0,5049803.0,3.481304122160805
+FBAS,pizza, a very active part in all that ,32,medium,6748482.0,8474558.0,20.367740712848978
+FBAS,pizza, arid Moslem rea,16,medium,11392756.0,12211099.0,6.701632670409109
+FBAS,pizza, breasted the stream and ceased not swimming with them until it reached the farther side. There Yusuf dismounted and knocked at ,128,medium,4153030.0,5041036.0,17.615545693385247
+FBAS,pizza, clank.  You've ,16,rare,9444435.0,11858307.0,20.35595806382817
+FBAS,pizza," drive Richard Hardie to despair.""  ""No, no,"" implored Peggy; ""t",64,rare,4352742.0,4529595.0,3.904388802972451
+FBAS,pizza, far was the anxiety experienced on that score by the King of Na,64,rare,5358313.0,5713854.0,6.22243760516107
+FBAS,pizza, from my sister ,16,medium,11250567.0,13263173.0,15.174393035512693
+FBAS,pizza, he depe,8,medium,17170009.0,18301406.0,6.18202229927034
+FBAS,pizza, his good-humour,16,rare,8467537.0,8887847.0,4.729041802812312
+FBAS,pizza," little importance ... no dolmens, menhirs, or ancient circles have been discovered in Judaea, and only one doubtful circle in S",128,rare,3354451.0,3369263.0,0.43962136526593504
+FBAS,pizza, noticed.  [FN#41] He had now le,32,rare,6982934.0,7612506.0,8.270233218863801
+FBAS,pizza," other than Marjanah killed thy daughter, for she hated her in secret;"" and she continued to her son, ""Fret not for taking the b",128,rare,3333466.0,3459598.0,3.645857119815655
+FBAS,pizza, politic,8,medium,16175181.0,15865934.0,-1.9491257180321058
+FBAS,pizza," surprise, not to say horror of her daughter, and she actually f",64,medium,5071493.0,5140227.0,1.3371782997132229
+FBAS,pizza," these four only.  'Whither have they gone, and my host also?' cried Manawyddan, and they searched the hall, and there was no ma",128,rare,3904598.0,4201188.0,7.059669788640737
+FBAS,pizza,!  I know what y,16,rare,10963444.0,11035756.0,0.6552518921222977
+FBAS,pizza,"""Yes.""  ",8,rare,17183014.0,20442256.0,15.943651229101132
+FBAS,pizza,.  On the 26th Camilla came back,32,rare,6301081.0,6138264.0,-2.652492626579763
+FBAS,pizza,": for I fear thine accompanying me, without having his permission, lest he take umbrage at me seeing thee in my society."" Now wh",128,rare,3721566.0,3964626.0,6.130716995751932
+FBAS,pizza,"Allah, the Compassionating, the ",32,medium,8033043.0,11323607.0,29.059327120766376
+FBAS,pizza,But will it not be more honourable for you to begin?'  'No; I th,64,rare,4292404.0,5025216.0,14.582696544785339
+FBAS,pizza,Germans. Bungler,16,medium,10294312.0,10803182.0,4.710371444265218
+FBAS,pizza,across to anothe,16,medium,10776205.0,12861155.0,16.21121897683373
+FBAS,pizza,ad a fai,8,medium,16607204.0,16868911.0,1.5514160931906038
+FBAS,pizza,"ahrazad was surprised by the dawn of day and fell silent and ceased to say her permitted say. Then quoth her sister Dunyazad, ""H",128,rare,4018676.0,4031243.0,0.31174007619982225
+FBAS,pizza,"ails connected with the fleet.  Bonaparte, whose attention was c",64,medium,5350471.0,5439889.0,1.6437467749801513
+FBAS,pizza,aken his life; but that only an interchange of courtesy took pla,64,rare,5353788.0,5689569.0,5.901694838396371
+FBAS,pizza,asket of gold.  ,16,medium,10066667.0,12126022.0,16.982939664796913
+FBAS,pizza,"at the future might hold, roamed",32,medium,8203637.0,8339891.0,1.6337623597238862
+FBAS,pizza,band. He untied it and examined ,32,rare,6088986.0,7693585.0,20.856323807431774
+FBAS,pizza,bows of his own boat to the land,32,medium,7460510.0,8062633.0,7.468069053868631
+FBAS,pizza,"ce of the tiles, where she builds huge nests which endanger the ",64,medium,5925557.0,8269276.0,28.342493345245703
+FBAS,pizza,cers who could t,16,medium,10305210.0,11201955.0,8.005254439961597
+FBAS,pizza,"d, and immediately betrays the latter. These tales are apparently from the Forty Vazirs; cf. Gibbs, the 10th Vazir's Story, pp. ",128,rare,3195350.0,3882524.0,17.699156528072976
+FBAS,pizza,"d, with the impression that he w",32,medium,8041258.0,8231725.0,2.313816362912998
+FBAS,pizza,ds. To c,8,medium,17234532.0,17419977.0,1.0645536443590022
+FBAS,pizza,dwell wi,8,medium,16686759.0,17428373.0,4.255210741702625
+FBAS,pizza,e way tomorrow if I would let hi,32,medium,7658109.0,7996615.0,4.23311613726558
+FBAS,pizza,"eak of the rise of the Rakaia, or rather of the numerous branches which form it; of their vast and wasteful beds; the glaciers t",128,rare,4253353.0,4756012.0,10.568917824429375
+FBAS,pizza,"ement; for, though the savages a",32,rare,6796547.0,7433152.0,8.56440175042835
+FBAS,pizza,"eming man, and I don't like him.""  Even at that time Bonaparte h",64,rare,4761969.0,5084353.0,6.340708444122585
+FBAS,pizza,ercised under equal conditions with men.  We have had queens as ,64,rare,4819988.0,6007333.0,19.764927298020602
+FBAS,pizza,"ernacchi was the physicist, Hodgson the biologist, and Ferrar the geologist.  On August 6, 1901, the expedition left Cowes, and ",128,rare,4318939.0,5899807.0,26.79524940392118
+FBAS,pizza,"es of to-day, Swathed in fine linen cerecloths fold on fold, Wit",64,rare,4665765.0,5021455.0,7.08340510867866
+FBAS,pizza,ess of these thy Ministers. Is this of envy or is it not? They w,64,rare,4124264.0,4241846.0,2.771953531552065
+FBAS,pizza,etre of my long ,16,medium,10013581.0,11815577.0,15.251019903640762
+FBAS,pizza,"ey hold it as theirs, and the first Thanadar's district which they took was that of Perna, which is by the seaside. There they c",128,rare,3236059.0,3320055.0,2.5299580880437222
+FBAS,pizza,ey led him off as to execution. ,32,rare,7010180.0,8531586.0,17.8326280717325
+FBAS,pizza,"g on a grass plot, and with his last breath put her in mind of h",64,medium,5564367.0,5868750.0,5.1865047923322685
+FBAS,pizza,ge-feast whereof the merry-makin,32,rare,6257026.0,6800636.0,7.993517076932216
+FBAS,pizza,his neck,8,medium,17637014.0,17647444.0,0.059102043332734194
+FBAS,pizza,ho endeavoured t,16,medium,10943339.0,12300355.0,11.032331993670102
+FBAS,pizza,ht there,8,common,19121373.0,19777430.0,3.3172004653789697
+FBAS,pizza,ibe-Buy ,8,rare,14250386.0,17133399.0,16.826859632464053
+FBAS,pizza,"ily bread, and you will earn your reward and recompense in Heave",64,medium,4625709.0,5075244.0,8.857406658674932
+FBAS,pizza,in Sydne,8,medium,16002420.0,17105149.0,6.44676640934259
+FBAS,pizza,ived a b,8,medium,18264865.0,18222906.0,-0.23025416473091614
+FBAS,pizza,liest raiment and the twain were ready to fly for joy at reunion,64,rare,5053607.0,5454055.0,7.342206853432905
+FBAS,pizza,ly deed.,8,medium,16165057.0,16192294.0,0.16820964342668185
+FBAS,pizza,"mats, etc.: here, however, it ma",32,rare,6781772.0,7217827.0,6.04136120192407
+FBAS,pizza,"me for--""(Frere gave him an impl",32,rare,6219314.0,6425224.0,3.2047131742021757
+FBAS,pizza,"n her strong head and miserable heart. She told Frank, and watch",64,medium,5150729.0,5381481.0,4.287890266638496
+FBAS,pizza,"n the wall! rats on the cellar bottom! How I ever stirred from the spot I do not know, but when I did stir, it was to go forward",128,rare,3573188.0,3701403.0,3.463956775309254
+FBAS,pizza,ndication of the,16,medium,10816131.0,13758429.0,21.385421257034505
+FBAS,pizza,nding affluence. He fell in love with a slave-girl; so he bought her and she loved him as he loved her; and he ceased not to spe,128,rare,3938549.0,4361785.0,9.703275149967272
+FBAS,pizza,open air.  The old men are often,32,medium,8075135.0,8483281.0,4.8111809569905795
+FBAS,pizza,"operas, more than a hundred colleges and universities or musical",64,medium,5441430.0,5598918.0,2.8128291930690894
+FBAS,pizza,"or Don's preservation, began lou",32,rare,7546027.0,7840146.0,3.751447995993952
+FBAS,pizza,ould mak,8,medium,16949523.0,16987330.0,0.222559990298652
+FBAS,pizza,"p, over which, a",16,medium,10209784.0,11073350.0,7.7985975337183415
+FBAS,pizza,"presence."" So he sent for her, and by reason of this, there was ",64,rare,5667420.0,7078016.0,19.929257012134475
+FBAS,pizza,prit. Th,8,medium,16701935.0,17676034.0,5.510845928447524
+FBAS,pizza,"r monies and yet other hundred loaded with raiment of silken stuffs, sendal and brocade, besides an hundred slave-girls and a ce",128,rare,3704982.0,4081056.0,9.215114911434688
+FBAS,pizza,ree hund,8,medium,17801920.0,18100301.0,1.6484863980991256
+FBAS,pizza,"rs would be answered, but that at all events it was his duty to be resigned to the will of God. ""Prayer is the only key that wil",128,rare,4055331.0,4161123.0,2.542390599845282
+FBAS,pizza,rying to,8,medium,17784561.0,19138479.0,7.074323931384516
+FBAS,pizza,"s Alfred was much agitated. She was alive, and perhaps near him.",64,medium,5296003.0,5262159.0,-0.6431580649691505
+FBAS,pizza,"s falling--clutching, in vain, a",32,rare,5812537.0,6424200.0,9.521232215684444
+FBAS,pizza,"s.  'Moose noses, buffalo tongues, bear steaks, and roasted marrow-bones would be the thing, but I don't mind a change; so bring",128,rare,4610320.0,4864536.0,5.225904382247351
+FBAS,pizza,se of their narr,16,medium,12226213.0,12203397.0,-0.18696433460289785
+FBAS,pizza,"sel, and got everything shipshape for the long voyage to come; but the best of all was, that we acquired valuable experience of ",128,rare,4629467.0,5781865.0,19.931250556697535
+FBAS,pizza,"sful in his attempt, and success is dear to us all.  The archdeacon had trampled upon Mr. Slope and had lifted to high honours t",128,medium,3831153.0,4261486.0,10.09819110047528
+FBAS,pizza,t of the prosper,16,medium,10589755.0,11199204.0,5.441895691872387
+FBAS,pizza,t's wife,8,rare,16212968.0,17746414.0,8.640878095146434
+FBAS,pizza,"tent and all delight of life, when Ni'amah craved leave to retur",64,rare,5421464.0,5712172.0,5.089272521905853
+FBAS,pizza,the first.  During the ensuing four years he was never out of employment. He neither advanced nor receded in the modern sense; h,128,rare,3474513.0,3687372.0,5.7726478369961045
+FBAS,pizza,"the knock at the door which announced the arrival of his pretended mother made his heart jump.  ""I feel deuced shaky, Sarah,"" he",128,rare,3515461.0,4172020.0,15.737196849487779
+FBAS,pizza,"think they must have maids and social status--whatever that is--and so on.  It can't be done on mother's income.""  ""That quality",128,rare,3908639.0,3972124.0,1.5982632969162092
+FBAS,pizza,ting him on the ,16,medium,12045780.0,16820706.0,28.38719135807974
+FBAS,pizza,tter was pacing the sitting-room,32,rare,6658050.0,6799180.0,2.07569148044323
+FBAS,pizza,uld not be a third. He took a bu,32,medium,6981221.0,7058031.0,1.0882638514905927
+FBAS,pizza,who had sought t,16,medium,11267226.0,12296185.0,8.368115801771037
+FBAS,pizza,y places among t,16,medium,11009173.0,12101000.0,9.0226179654574
+FBAS,pizza,y the oc,8,medium,19699444.0,18937695.0,-4.0223955449699655
+HC,dante,    E po,8,medium,71.0,97469.0,99.92715632662693
+HC,dante,"    tal mi fecâ Ã¯o ân quella oscura costa,  perchÃ©, pensan",64,rare,64.0,31545.0,99.79711523220796
+HC,dante,    Â«Lâ,8,rare,16.0,84931.0,99.98116117789735
+HC,dante,  per la corona ,16,medium,16.0,77121.0,99.97925338105055
+HC,dante,  su la fiumana ,16,medium,16.0,69732.0,99.97705501061206
+HC,dante, Camonica e Penn,16,medium,16.0,62268.0,99.97430461874478
+HC,dante," altro disio, sÃ¬ che tua cura  sÃ© stessa lega sÃ¬ che fuor non",64,rare,64.0,30589.0,99.7907744614077
+HC,dante," colore,  nÃ© lâun nÃ© lâalt",32,rare,32.0,33492.0,99.90445479517497
+HC,dante, de lâ,8,rare,1558.0,106900.0,98.54256314312441
+HC,dante," figura,",8,medium,32.0,92096.0,99.96525364836693
+HC,dante, fuor di quella  Ã¨ defettivo ciÃ² châÃ¨ lÃ¬ perfetto.    Omai,64,rare,64.0,27596.0,99.76808233077257
+HC,dante, malvagia e scempia  con la qual tu cadrai in questa valle;    c,64,rare,64.0,29193.0,99.78076936251841
+HC,dante," natura face in foco,  se mille volte vÃ¯olenza il torza.    Per",64,rare,64.0,29447.0,99.7826603728733
+HC,dante," pietÃ  mi giunse, e fui quasi s",32,rare,32.0,39754.0,99.91950495547619
+HC,dante," quanta Ã¨ lâarte  che mostri in cielo, in terra e nel mal mon",64,rare,64.0,30986.0,99.79345510875879
+HC,dante, qui sÃ¹ non ti ,16,rare,16.0,76607.0,99.9791141801663
+HC,dante, rana rimane e lâaltra spiccia,32,rare,32.0,43026.0,99.92562636545345
+HC,dante, si convenia piÃ¹ dolci salmi.  ,32,rare,32.0,57620.0,99.94446372787226
+HC,dante, vendemmia e ara:    di tante fiamme tutta risplendea  lâottav,64,rare,64.0,31264.0,99.79529170931423
+HC,dante,Canto VII      Poscia che lâaccoglienze oneste e liete  furo i,64,rare,64.0,29222.0,99.78098692765724
+HC,dante,"Gutenberg work, ",16,rare,32.0,67041.0,99.95226801509524
+HC,dante,a  lâo,8,rare,124.0,93631.0,99.8675652294646
+HC,dante,a dentro tutte p,16,medium,16.0,64242.0,99.97509417515022
+HC,dante,a e sâascondeva vosco  quelli ,32,rare,32.0,51786.0,99.93820723747731
+HC,dante,"a,  Â«ch",8,rare,10.0,90820.0,99.98898920942524
+HC,dante,bita dis,8,medium,8.0,106212.0,99.99246789439988
+HC,dante,"bito foco,  movendo li occhi che",32,medium,32.0,40501.0,99.92098960519493
+HC,dante,dal mio ,8,medium,98.0,124005.0,99.92097092859159
+HC,dante,"do quasi, sÃ¬ che Giove,  Mercurio e Marte a nominar trascorse. ",64,rare,64.0,34056.0,99.81207423067889
+HC,dante,"do sÃ¹, non pote",16,rare,16.0,60593.0,99.97359430957371
+HC,dante,duol pur,8,medium,8.0,99813.0,99.99198501197239
+HC,dante,"e Ã¨ de lâuom proprio male,  piÃ¹ spiace a Dio; e perÃ² stan d",64,rare,64.0,31271.0,99.7953375331777
+HC,dante,egio e l,8,medium,9.0,115427.0,99.9922028641479
+HC,dante,er lo fo,8,medium,43.0,106965.0,99.95979993455803
+HC,dante,erg  electronic works. See parag,32,rare,32.0,40134.0,99.92026710519758
+HC,dante,gua si scerna.    CiÃ² che narra,32,rare,32.0,41305.0,99.92252753903885
+HC,dante,"hia,  venendo sÃ",16,rare,16.0,63524.0,99.97481266922738
+HC,dante,hing for  copies,16,medium,16.0,63967.0,99.97498710272484
+HC,dante,"i châattende lÃ , per qui mi m",32,rare,32.0,39444.0,99.91887232532197
+HC,dante,i seppe nÃ© orto,16,rare,16.0,65066.0,99.97540958411459
+HC,dante,"ie,  sÃ¬ che notte nÃ© sonno a v",32,rare,32.0,37337.0,99.91429413182634
+HC,dante,inquecen,8,medium,32.0,91155.0,99.96489495913553
+HC,dante,ltri sca,8,common,9.0,107506.0,99.99162837423027
+HC,dante,mi lÃ¬ n,8,rare,10.0,103393.0,99.99032816534968
+HC,dante,"miltÃ , e gran t",16,rare,16.0,66265.0,99.97585452350411
+HC,dante,"n campo giunti coâ loro avversari,  e io pregava Iddio di quel",64,rare,64.0,27718.0,99.76910310989248
+HC,dante,n le suo,8,medium,17.0,105739.0,99.9839226775362
+HC,dante,ncor brami.    Per lei assai di ,32,medium,32.0,47403.0,99.9324937240259
+HC,dante,ndela;    cosÃ¬ ,16,rare,16.0,67176.0,99.9761819697511
+HC,dante,"no,    di che stupor dovea esser compiuto!  Certo tra esso e â",64,rare,64.0,28059.0,99.77190919134681
+HC,dante,no; e perÃ² non sâammiri  se n,32,rare,32.0,41435.0,99.92277060456136
+HC,dante,non mi desse  la,16,medium,16.0,64624.0,99.97524139638524
+HC,dante,nte  sâaggiugn,16,rare,16.0,53011.0,99.96981758502952
+HC,dante,o di maschio fem,16,medium,16.0,66675.0,99.97600299962505
+HC,dante,o fianco,8,medium,43.0,104780.0,99.9589616338996
+HC,dante,"o.          Inferno  Canto II      Lo giorno se nâandava, e lâ",64,rare,64.0,28929.0,99.77876870959936
+HC,dante,of the country w,16,rare,32.0,61661.0,99.94810333922577
+HC,dante,ome âl piÃ¹ basso face  qual t,32,rare,32.0,42325.0,99.92439456585942
+HC,dante,"one a le sue rime,    tal qual d",32,medium,32.0,37984.0,99.91575400168492
+HC,dante,"padre mio, ma disse: Â«Scocca  lâarco del dir, che ânfino al",64,rare,64.0,33181.0,99.80711853168982
+HC,dante,per salire al monte  dove siede la chiesa che soggioga  la ben g,64,medium,64.0,26717.0,99.76045214657334
+HC,dante,pregna  ,8,medium,13.0,148224.0,99.99122949050086
+HC,dante,"r non ha contasto a lei:  questa provede, giudica, e persegue  s",64,rare,64.0,29191.0,99.78075434209174
+HC,dante,ra pennuto di sei ali;  le penne piene dâocchi; e li occhi dâ,64,rare,64.0,24690.0,99.74078574321588
+HC,dante,"radiso  Canto XXXII      Affetto al suo piacer, quel contemplant",64,rare,64.0,32911.0,99.80553614293093
+HC,dante,rlo e di Ridolfo,16,medium,16.0,58036.0,99.97243090495554
+HC,dante,roject          Gutenberg Litera,32,rare,64.0,37644.0,99.82998618637764
+HC,dante,rutto;  ,8,rare,26.0,136484.0,99.98095014800269
+HC,dante,"se âl maestro, Â«che lâandar",32,rare,32.0,43430.0,99.92631821321667
+HC,dante,"se,  e tre spiriti venner sotto noi,  deâ quai nÃ© io nÃ© âl",64,rare,64.0,25019.0,99.7441944122467
+HC,dante,ta canti,8,common,13.0,102363.0,99.98730009866847
+HC,dante,"tator de la misera valle,  che p",32,medium,32.0,40943.0,99.92184256161005
+HC,dante,"ti con sospetti!    Vien, crudel",32,rare,32.0,40779.0,99.92152823757326
+HC,dante,"ti glienâ avea piÃ¹ dâuna ciocca,  latrando lui con li occhi",64,rare,64.0,28222.0,99.77322656083906
+HC,dante,to santoÂ».    Seguentemente int,32,rare,32.0,38266.0,99.91637484973606
+HC,dante,"to,  châamor di nostra vita di",32,rare,32.0,45666.0,99.92992598432095
+HC,dante,tre faville câ,16,rare,16.0,65315.0,99.97550333001608
+HC,dante,ura.    ,8,medium,513.0,144787.0,99.64568642212353
+HC,dante,va ne lâettern,16,rare,32.0,55329.0,99.94216414538488
+HC,dante, ciascun che gi,16,rare,16.0,66031.0,99.97576895700504
+HC,gutenberg,                                ,32,common,45420.0,131256.0,65.39586761748035
+HC,gutenberg,  incomp,8,medium,9.0,117532.0,99.99234251097573
+HC,gutenberg," allowed without very much  protest. Yet, both in Mr. Addison an",64,medium,64.0,46318.0,99.86182477654475
+HC,gutenberg, and pla,8,medium,32.0,130322.0,99.97544543515293
+HC,gutenberg, comfort and elegance of their  family party at Pemberley.      ,64,medium,64.0,52593.0,99.87831080181773
+HC,gutenberg, creature. Who would have thought she could be so thin and small!â    âShe is abominably rude to keep Charlotte out of doors,128,rare,128.0,29819.0,99.57074348569704
+HC,gutenberg, do not believe she often sees such at home.â    âThe person of whom I speak is a gentleman and a stranger.â    Mrs. Benne,128,rare,128.0,27271.0,99.53063694033955
+HC,gutenberg, fix the problem,16,rare,16.0,78100.0,99.97951344430217
+HC,gutenberg," her with astonishment.    âThis is an evening of wonders, ind",64,rare,64.0,42044.0,99.84777851774332
+HC,gutenberg, is settled betw,16,medium,16.0,78825.0,99.97970187123374
+HC,gutenberg, join me,8,rare,8.0,141456.0,99.99434453116163
+HC,gutenberg," side, and that it  has done no ",32,medium,32.0,66688.0,99.95201535508637
+HC,gutenberg, stand their cha,16,medium,16.0,92269.0,99.98265939806436
+HC,gutenberg," that, by  his wife at least, if not by himself, such a hope was cherished. The  letter was to this effect:--         /* âMy d",128,rare,128.0,22674.0,99.43547675751962
+HC,gutenberg," was  always provokingly chary of description in regard to her beauties; and  except the fine eyes, and a hint or two that she h",128,rare,128.0,33125.0,99.61358490566037
+HC,gutenberg,"! I am sorry for her, because, w",32,rare,32.0,54827.0,99.94163459609317
+HC,gutenberg,998 [eBook #1342,16,rare,16.0,61593.0,99.97402302209667
+HC,gutenberg,; but it seems t,16,rare,16.0,88309.0,99.9818818014019
+HC,gutenberg,"Bingley, and a charming prospect",32,medium,32.0,60127.0,99.94677931711212
+HC,gutenberg,Had Elizabethâs opinion been a,32,rare,32.0,57401.0,99.94425184230239
+HC,gutenberg,"The two gentlemen left Rosings the next morning; and Mr. Collins having  been in waiting near the lodges, to make them his parti",128,rare,128.0,32388.0,99.60479189823391
+HC,gutenberg,"a delicious scheme,  and I dare say would hardly cost anything at all. Mamma would like to  go, too, of all things! Only think w",128,rare,128.0,26922.0,99.52455241066785
+HC,gutenberg,accepted in retu,16,medium,16.0,87006.0,99.98161046364619
+HC,gutenberg,"ack to Longbourn.    Mrs. Gardiner went away in all the perplexity about Elizabeth and her  Derbyshire friend, that had attended",128,rare,128.0,26819.0,99.5227264252955
+HC,gutenberg,al its  unfavourable beginning f,32,medium,32.0,51284.0,99.9376023711099
+HC,gutenberg,as most pressingly  civil in her,32,medium,32.0,56891.0,99.94375208732488
+HC,gutenberg,"body else; and she was, in fact,",32,rare,32.0,55609.0,99.94245535794566
+HC,gutenberg,"ceive it, and ac",16,medium,16.0,79454.0,99.97986256198556
+HC,gutenberg,"d be wiser to resist? All that I can promise you, therefore, is  not to be in a hurry. I will not be in a hurry to believe mysel",128,rare,128.0,30113.0,99.57493441370836
+HC,gutenberg,de is separated only by a lane  ,32,medium,32.0,71781.0,99.95541995792759
+HC,gutenberg,distinct,8,medium,88.0,119384.0,99.9262882798365
+HC,gutenberg,e  engag,8,medium,47.0,124869.0,99.96236055386045
+HC,gutenberg,e left h,8,medium,21.0,148648.0,99.98587266562618
+HC,gutenberg,e only m,8,medium,25.0,137081.0,99.98176260750942
+HC,gutenberg,"ed a direction of talents--talents which, rightly used,  might at least have preserved the respectability of his daughters, even",128,rare,128.0,33829.0,99.6216264152059
+HC,gutenberg,eeks of ,8,medium,70.0,160598.0,99.95641290676097
+HC,gutenberg,"ence, a perfect freedom from the idea  that all men may bully her if they choose, and that most will away with  her if they can.",128,medium,128.0,30617.0,99.58193160662377
+HC,gutenberg,"er for it as a woman, while she  was immensely the better for it",64,medium,64.0,43400.0,99.85253456221199
+HC,gutenberg,"er to the fireplace, and they both sat down. He  then said,--    âI have received a letter this morning that has astonished me",128,rare,128.0,34665.0,99.63075147843647
+HC,gutenberg,"er, and thus began:--    âIn vain have I struggled. It will not do. My feelings will not be  repressed. You must allow me to t",128,rare,128.0,31638.0,99.59542322523548
+HC,gutenberg,f.    Lady Catherine was extreme,32,rare,32.0,58784.0,99.94556341861731
+HC,gutenberg,g him.    The Gardiners stayed a week at Longbourn; and what wit,64,rare,64.0,39613.0,99.83843687678288
+HC,gutenberg,governess can give it. It is  wonderful how many families I have,64,medium,64.0,46855.0,99.8634083875787
+HC,gutenberg,"gracious!â cried Maria, after a few minutesâ silence, âit ",64,rare,64.0,38995.0,99.83587639440954
+HC,gutenberg,"had heard, soon after her arrival, that Mr. Darcy  was expected ",64,rare,64.0,43939.0,99.85434352170054
+HC,gutenberg,"hardly know how Mr. Collins was first introduced to her  notice,",64,medium,64.0,41019.0,99.8439747434116
+HC,gutenberg,hire is all the present  concern,32,medium,32.0,55343.0,99.94217877599696
+HC,gutenberg,hours which the discontentedness,32,medium,32.0,48144.0,99.93353273512795
+HC,gutenberg,ight law (does not  contain a no,32,rare,32.0,55577.0,99.94242222502115
+HC,gutenberg,ighted h,8,medium,8.0,153342.0,99.99478290357501
+HC,gutenberg,in good-humour  and good spirits,32,rare,32.0,51566.0,99.93794360625218
+HC,gutenberg,ing in E,8,medium,8.0,132914.0,99.99398107046662
+HC,gutenberg,kably  g,8,medium,8.0,129914.0,99.99384208014533
+HC,gutenberg,l       think of,16,medium,3646.0,81865.0,95.54632626885727
+HC,gutenberg,"lly?â    âA thorough, determ",32,rare,32.0,48850.0,99.93449334698056
+HC,gutenberg,"manner, I shall certainly be reduced to tricks and stratagems to",64,medium,64.0,42597.0,99.84975467755945
+HC,gutenberg,"n did not vary on seeing them. Miss Bennetâs lovely face  confirmed his views, and established all his strictest notions of wh",128,rare,128.0,33452.0,99.61736219060145
+HC,gutenberg,n quality appear,16,rare,16.0,78885.0,99.97971731000824
+HC,gutenberg,"n the living fell, it was given  elsewhere.â    âGood heaven",64,rare,64.0,36119.0,99.82280794041917
+HC,gutenberg,n to  introduce ,16,medium,16.0,97642.0,99.98361360889781
+HC,gutenberg,"n very early, so",16,medium,16.0,83257.0,99.98078239667535
+HC,gutenberg,"nced  only once with Mrs. Hurst and once with Miss Bingley, decl",64,medium,64.0,42103.0,99.84799182956084
+HC,gutenberg,"ness into the village,  when she",32,medium,32.0,62226.0,99.94857455083084
+HC,gutenberg,"nour of dancing with  you, I was",32,medium,32.0,50005.0,99.93600639936007
+HC,gutenberg,"nt he entered the room. All  Elizabethâs anger against him had been long done away; but had she still  felt any, it could hard",128,rare,128.0,38553.0,99.66798952091925
+HC,gutenberg,ntempt w,8,medium,16.0,144224.0,99.98890614599512
+HC,gutenberg,nvoluntary glance showed her Darcy with a heightened  complexion,64,rare,64.0,41108.0,99.84431254257079
+HC,gutenberg,"on, when they we",16,medium,16.0,85628.0,99.98131452328677
+HC,gutenberg,other disappoint,16,medium,16.0,79942.0,99.97998548947987
+HC,gutenberg,"rew aside her book, and  cast her eyes round the room in quest o",64,rare,64.0,42138.0,99.84811808818644
+HC,gutenberg,riting. My sisters may write to _me_. They will have nothing else to  do.â    Mr. Wickhamâs adieus were much more affectiona,128,rare,128.0,35271.0,99.63709563097161
+HC,gutenberg,"rt so far as to conceal from him  your sisterâs being in town. I knew it myself, as it was known to Miss  Bingley; but her bro",128,rare,128.0,31165.0,99.58928284935023
+HC,gutenberg,"s daughter, frig",16,medium,16.0,81098.0,99.98027078349651
+HC,gutenberg,s own di,8,medium,10.0,135740.0,99.99263297480478
+HC,gutenberg,"sembled,",8,medium,24.0,113617.0,99.97887640053865
+HC,gutenberg,"st  conscientiously to his book, and would not even look at her.    On Sunday, after morning service, the separation, so agreeab",128,medium,128.0,33079.0,99.61304755282808
+HC,gutenberg,"t come and part us, I am determi",32,medium,32.0,51484.0,99.93784476730634
+HC,gutenberg,t do jus,8,rare,17.0,126155.0,99.9865245134953
+HC,gutenberg,t he will not have Lizzy.â    âAnd what am I to do on the occasion? It seems a hopeless business.â    âSpeak to Lizzy ab,128,rare,128.0,24383.0,99.47504408809417
+HC,gutenberg,t on the subject,16,rare,69.0,79500.0,99.9132075471698
+HC,gutenberg,t she co,8,medium,307.0,145671.0,99.78925112067604
+HC,gutenberg,t! But I,8,rare,37.0,132284.0,99.97202987511717
+HC,gutenberg,"termined to hate! Do not wish me such an  evil.â    When the dancing recommenced, however, and Darcy approached to claim her  ",128,rare,128.0,39981.0,99.67984792776569
+HC,gutenberg,that Sir,8,common,10.0,131131.0,99.99237403817557
+HC,gutenberg,that every advance to intimacy b,32,medium,32.0,56075.0,99.94293357111012
+HC,gutenberg,them.    The Gar,16,medium,16.0,75060.0,99.97868371969092
+HC,gutenberg,tle relieved by ,16,medium,32.0,91720.0,99.96511120802442
+HC,gutenberg,trange creature by way of a friend!--always wanting me  to play ,64,rare,64.0,48238.0,99.86732451594179
+HC,gutenberg,tween br,8,medium,10.0,133602.0,99.99251508210955
+HC,gutenberg,u have even now said as much to  encourage my suit as would be c,64,medium,64.0,45859.0,99.86044178896182
+HC,gutenberg,uch an idea had ,16,medium,16.0,101900.0,99.98429833169774
+HC,gutenberg,"uld be his  meaning--and asked Elizabeth whether she could at all understand him.    âNot at all,â was her answer; âbut, d",128,rare,128.0,28446.0,99.55002460802925
+HC,gutenberg,ur situa,8,medium,33.0,128448.0,99.97430866965621
+HC,gutenberg,ve heart enough to be really in ,32,medium,32.0,71084.0,99.95498283720669
+HC,gutenberg,ves; and then thought no more of the matter: and their  indiffer,64,rare,64.0,35595.0,99.82019946621716
+HC,gutenberg,"warmth, as left no doubt of his good information;  and he soon a",64,rare,64.0,44760.0,99.85701519213583
+HC,gutenberg,was now employment for the whole  party; for though they could n,64,rare,64.0,36949.0,99.82678827573142
+HC,gutenberg,"where secrecy  was possible, except to Elizabeth; and from all B",64,rare,64.0,41654.0,99.84635329140059
+HC,gutenberg,âs departure s,16,rare,16.0,92619.0,99.98272492685086
+HC,gutenberg,â    It may be,16,rare,16.0,76729.0,99.9791473888621
+HC,pizza,     Nod,8,common,36997.0,16265825.0,99.77254765743514
+HC,pizza,   Story of the ,16,medium,1341.0,16100751.0,99.9916711959585
+HC,pizza,"  ""What ",8,rare,16599.0,20017323.0,99.91707682390897
+HC,pizza,  1.62.  A MAYOR,16,rare,16.0,7614361.0,99.99978987074556
+HC,pizza,  I don't know what it can ever ,32,rare,32.0,8897933.0,99.99964036591419
+HC,pizza," a member of his family that he did not want the bother of ""buyi",64,rare,64.0,5049803.0,99.99873262382711
+HC,pizza, a very active part in all that ,32,medium,64.0,8474558.0,99.99924479837179
+HC,pizza, arid Moslem rea,16,medium,32.0,12211099.0,99.99973794332517
+HC,pizza, breasted the stream and ceased not swimming with them until it reached the farther side. There Yusuf dismounted and knocked at ,128,medium,256.0,5041036.0,99.99492167879777
+HC,pizza, clank.  You've ,16,rare,16.0,11858307.0,99.99986507348815
+HC,pizza," drive Richard Hardie to despair.""  ""No, no,"" implored Peggy; ""t",64,rare,64.0,4529595.0,99.99858707014644
+HC,pizza, far was the anxiety experienced on that score by the King of Na,64,rare,64.0,5713854.0,99.9988799153776
+HC,pizza, from my sister ,16,medium,48.0,13263173.0,99.99963809565027
+HC,pizza, he depe,8,medium,261.0,18301406.0,99.99857388006146
+HC,pizza, his good-humour,16,rare,32.0,8887847.0,99.99963995779855
+HC,pizza," little importance ... no dolmens, menhirs, or ancient circles have been discovered in Judaea, and only one doubtful circle in S",128,rare,128.0,3369263.0,99.99620094958452
+HC,pizza, noticed.  [FN#41] He had now le,32,rare,64.0,7612506.0,99.99915927816674
+HC,pizza," other than Marjanah killed thy daughter, for she hated her in secret;"" and she continued to her son, ""Fret not for taking the b",128,rare,256.0,3459598.0,99.99260029633501
+HC,pizza, politic,8,medium,18611.0,15865934.0,99.8826983649371
+HC,pizza," surprise, not to say horror of her daughter, and she actually f",64,medium,320.0,5140227.0,99.9937745940014
+HC,pizza," these four only.  'Whither have they gone, and my host also?' cried Manawyddan, and they searched the hall, and there was no ma",128,rare,128.0,4201188.0,99.99695324274943
+HC,pizza,!  I know what y,16,rare,58.0,11035756.0,99.99947443564356
+HC,pizza,"""Yes.""  ",8,rare,1605.0,20442256.0,99.99214861608229
+HC,pizza,.  On the 26th Camilla came back,32,rare,64.0,6138264.0,99.99895735993108
+HC,pizza,": for I fear thine accompanying me, without having his permission, lest he take umbrage at me seeing thee in my society."" Now wh",128,rare,256.0,3964626.0,99.99354289660613
+HC,pizza,"Allah, the Compassionating, the ",32,medium,832.0,11323607.0,99.99265251787703
+HC,pizza,But will it not be more honourable for you to begin?'  'No; I th,64,rare,64.0,5025216.0,99.99872642290401
+HC,pizza,Germans. Bungler,16,medium,16.0,10803182.0,99.99985189548784
+HC,pizza,across to anothe,16,medium,32.0,12861155.0,99.99975118875405
+HC,pizza,ad a fai,8,medium,731.0,16868911.0,99.99566658452345
+HC,pizza,"ahrazad was surprised by the dawn of day and fell silent and ceased to say her permitted say. Then quoth her sister Dunyazad, ""H",128,rare,24841.0,4031243.0,99.38378807727543
+HC,pizza,"ails connected with the fleet.  Bonaparte, whose attention was c",64,medium,128.0,5439889.0,99.99764701081217
+HC,pizza,aken his life; but that only an interchange of courtesy took pla,64,rare,128.0,5689569.0,99.9977502689571
+HC,pizza,asket of gold.  ,16,medium,32.0,12126022.0,99.99973610471761
+HC,pizza,"at the future might hold, roamed",32,medium,32.0,8339891.0,99.99961630193968
+HC,pizza,band. He untied it and examined ,32,rare,64.0,7693585.0,99.99916813813066
+HC,pizza,bows of his own boat to the land,32,medium,96.0,8062633.0,99.99880932196716
+HC,pizza,"ce of the tiles, where she builds huge nests which endanger the ",64,medium,64.0,8269276.0,99.99922605074495
+HC,pizza,cers who could t,16,medium,16.0,11201955.0,99.99985716778902
+HC,pizza,"d, and immediately betrays the latter. These tales are apparently from the Forty Vazirs; cf. Gibbs, the 10th Vazir's Story, pp. ",128,rare,256.0,3882524.0,99.99340635112623
+HC,pizza,"d, with the impression that he w",32,medium,32.0,8231725.0,99.99961126009433
+HC,pizza,ds. To c,8,medium,103.0,17419977.0,99.99940872482208
+HC,pizza,dwell wi,8,medium,557.0,17428373.0,99.99680406197412
+HC,pizza,e way tomorrow if I would let hi,32,medium,32.0,7996615.0,99.99959983067835
+HC,pizza,"eak of the rise of the Rakaia, or rather of the numerous branches which form it; of their vast and wasteful beds; the glaciers t",128,rare,128.0,4756012.0,99.99730866953237
+HC,pizza,"ement; for, though the savages a",32,rare,96.0,7433152.0,99.99870848867344
+HC,pizza,"eming man, and I don't like him.""  Even at that time Bonaparte h",64,rare,128.0,5084353.0,99.99748247220442
+HC,pizza,ercised under equal conditions with men.  We have had queens as ,64,rare,64.0,6007333.0,99.99893463538645
+HC,pizza,"ernacchi was the physicist, Hodgson the biologist, and Ferrar the geologist.  On August 6, 1901, the expedition left Cowes, and ",128,rare,256.0,5899807.0,99.99566087500828
+HC,pizza,"es of to-day, Swathed in fine linen cerecloths fold on fold, Wit",64,rare,64.0,5021455.0,99.99872546901247
+HC,pizza,ess of these thy Ministers. Is this of envy or is it not? They w,64,rare,128.0,4241846.0,99.99698244585022
+HC,pizza,etre of my long ,16,medium,17.0,11815577.0,99.99985612213436
+HC,pizza,"ey hold it as theirs, and the first Thanadar's district which they took was that of Perna, which is by the seaside. There they c",128,rare,128.0,3320055.0,99.99614464218213
+HC,pizza,ey led him off as to execution. ,32,rare,64.0,8531586.0,99.99924984639433
+HC,pizza,"g on a grass plot, and with his last breath put her in mind of h",64,medium,64.0,5868750.0,99.99890947816826
+HC,pizza,ge-feast whereof the merry-makin,32,rare,64.0,6800636.0,99.99905891154886
+HC,pizza,his neck,8,medium,4344.0,17647444.0,99.9753845372735
+HC,pizza,ho endeavoured t,16,medium,115.0,12300355.0,99.99906506763422
+HC,pizza,ht there,8,common,20724.0,19777430.0,99.89521388774982
+HC,pizza,ibe-Buy ,8,rare,8.0,17133399.0,99.99995330757196
+HC,pizza,"ily bread, and you will earn your reward and recompense in Heave",64,medium,128.0,5075244.0,99.99747795376932
+HC,pizza,in Sydne,8,medium,235.0,17105149.0,99.99862614467726
+HC,pizza,ived a b,8,medium,845.0,18222906.0,99.99536297887944
+HC,pizza,liest raiment and the twain were ready to fly for joy at reunion,64,rare,128.0,5454055.0,99.99765312230991
+HC,pizza,ly deed.,8,medium,87.0,16192294.0,99.99946270738414
+HC,pizza,"mats, etc.: here, however, it ma",32,rare,64.0,7217827.0,99.99911330653948
+HC,pizza,"me for--""(Frere gave him an impl",32,rare,64.0,6425224.0,99.99900392577753
+HC,pizza,"n her strong head and miserable heart. She told Frank, and watch",64,medium,64.0,5381481.0,99.99881073630102
+HC,pizza,"n the wall! rats on the cellar bottom! How I ever stirred from the spot I do not know, but when I did stir, it was to go forward",128,rare,128.0,3701403.0,99.99654185183294
+HC,pizza,ndication of the,16,medium,549.0,13758429.0,99.99600971884217
+HC,pizza,nding affluence. He fell in love with a slave-girl; so he bought her and she loved him as he loved her; and he ceased not to spe,128,rare,256.0,4361785.0,99.9941308432213
+HC,pizza,open air.  The old men are often,32,medium,64.0,8483281.0,99.99924557491376
+HC,pizza,"operas, more than a hundred colleges and universities or musical",64,medium,128.0,5598918.0,99.99771384399628
+HC,pizza,"or Don's preservation, began lou",32,rare,32.0,7840146.0,99.99959184433555
+HC,pizza,ould mak,8,medium,8525.0,16987330.0,99.94981553899288
+HC,pizza,"p, over which, a",16,medium,32.0,11073350.0,99.99971101789431
+HC,pizza,"presence."" So he sent for her, and by reason of this, there was ",64,rare,128.0,7078016.0,99.99819158363022
+HC,pizza,prit. Th,8,medium,462.0,17676034.0,99.99738629151766
+HC,pizza,"r monies and yet other hundred loaded with raiment of silken stuffs, sendal and brocade, besides an hundred slave-girls and a ce",128,rare,256.0,4081056.0,99.99372711376664
+HC,pizza,ree hund,8,medium,6228.0,18100301.0,99.96559173242478
+HC,pizza,"rs would be answered, but that at all events it was his duty to be resigned to the will of God. ""Prayer is the only key that wil",128,rare,256.0,4161123.0,99.99384781464042
+HC,pizza,rying to,8,medium,19185.0,19138479.0,99.89975692425715
+HC,pizza,"s Alfred was much agitated. She was alive, and perhaps near him.",64,medium,64.0,5262159.0,99.99878376917155
+HC,pizza,"s falling--clutching, in vain, a",32,rare,64.0,6424200.0,99.999003767006
+HC,pizza,"s.  'Moose noses, buffalo tongues, bear steaks, and roasted marrow-bones would be the thing, but I don't mind a change; so bring",128,rare,384.0,4864536.0,99.99210613304126
+HC,pizza,se of their narr,16,medium,16.0,12203397.0,99.99986888896592
+HC,pizza,"sel, and got everything shipshape for the long voyage to come; but the best of all was, that we acquired valuable experience of ",128,rare,256.0,5781865.0,99.99557236289675
+HC,pizza,"sful in his attempt, and success is dear to us all.  The archdeacon had trampled upon Mr. Slope and had lifted to high honours t",128,medium,128.0,4261486.0,99.99699635291539
+HC,pizza,t of the prosper,16,medium,54.0,11199204.0,99.99951782287384
+HC,pizza,t's wife,8,rare,2480.0,17746414.0,99.98602534574027
+HC,pizza,"tent and all delight of life, when Ni'amah craved leave to retur",64,rare,128.0,5712172.0,99.9977591711174
+HC,pizza,the first.  During the ensuing four years he was never out of employment. He neither advanced nor receded in the modern sense; h,128,rare,128.0,3687372.0,99.99652869306378
+HC,pizza,"the knock at the door which announced the arrival of his pretended mother made his heart jump.  ""I feel deuced shaky, Sarah,"" he",128,rare,256.0,4172020.0,99.99386388368225
+HC,pizza,"think they must have maids and social status--whatever that is--and so on.  It can't be done on mother's income.""  ""That quality",128,rare,128.0,3972124.0,99.99677754269504
+HC,pizza,ting him on the ,16,medium,347.0,16820706.0,99.99793706637521
+HC,pizza,tter was pacing the sitting-room,32,rare,32.0,6799180.0,99.99952935501045
+HC,pizza,uld not be a third. He took a bu,32,medium,32.0,7058031.0,99.99954661576295
+HC,pizza,who had sought t,16,medium,64.0,12296185.0,99.99947951336125
+HC,pizza,y places among t,16,medium,32.0,12101000.0,99.99973555904471
+HC,pizza,y the oc,8,medium,1177.0,18937695.0,99.9937848824791

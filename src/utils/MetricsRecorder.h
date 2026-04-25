@@ -5,33 +5,27 @@
 #include <stdexcept>
 #include "../algorithms/Matcher.h"
 
-// Appends one result row per search run to a CSV file.
+// Writes one result row per search run to a CSV file.
 // Each row corresponds to one (algorithm, corpus, pattern, run_id) combination.
 // The CSV is the single source of truth for all plotting and analysis.
 
 class MetricsRecorder {
 public:
 
-    // Opens (or creates) the CSV file and writes the header row if it's new.
+    // Start each benchmark execution with a fresh CSV so old rows cannot
+    // contaminate means, standard deviations, or paper cross-check plots.
     explicit MetricsRecorder(const std::string& filepath) : filepath_(filepath) {
-        // Check if file already exists — if so, don't rewrite the header.
-        std::ifstream check(filepath_);
-        bool exists = check.good();
-        check.close();
-
-        out_.open(filepath_, std::ios::app);
+        out_.open(filepath_, std::ios::trunc);
         if (!out_.is_open())
             throw std::runtime_error("Cannot open results file: " + filepath_);
 
-        if (!exists)
-            write_header();
+        write_header();
     }
 
     ~MetricsRecorder() {
         if (out_.is_open()) out_.close();
     }
 
-    // Record one run. Call this once per search() call.
     void record(const std::string& algorithm,
                 const std::string& corpus,
                 const std::string& pattern,
@@ -60,8 +54,6 @@ private:
                 "comparisons,runtime_ms,preprocess_ms,matches_found,run_id\n";
     }
 
-    // Wrap pattern in quotes and escape any internal quotes.
-    // Patterns can contain commas, so this keeps the CSV valid.
     static std::string escape(const std::string& s) {
         std::string out = "\"";
         for (char c : s) {

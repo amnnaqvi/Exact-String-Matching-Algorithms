@@ -1,73 +1,71 @@
-ADA Project — Exact String Matching Comparison
-Group 47: Amn Naqvi (sn08776) & Hamayel Mashkoor (hm08937)
+# Exact String Matching Benchmark
 
-Algorithms: BMH (Horspool 1980), FBAS (Garraoui 2025), HC (Palmer et al. 2024)
+This project compares three exact string matching algorithms:
 
+- Boyer-Moore-Horspool (BMH)
+- Frequency-Based Anchor Selection (FBAS)
+- Hash Chain (HC)
 
-Project structure
------------------
+The benchmark records character comparisons, search runtime, preprocessing
+time, matches found, and repeated-run timing variance.
+
+## Structure
+
+```text
 src/
-  algorithms/
-    Matcher.h           — abstract base class (interface all algorithms share)
-    BMHMatcher.h        — Boyer-Moore-Horspool implementation  [Person A - DONE]
-    FBASMatcher.h       — FBAS stub + partner TODO             [Person B - TODO]
-  benchmark/
-    BenchmarkRunner.h   — runs N_RUNS per config, writes CSV   [Person A - DONE]
-  utils/
-    CorpusLoader.h      — loads text files                     [Person A - DONE]
-    PatternSampler.h    — samples patterns, assigns rarity     [Person A - DONE]
-    FrequencyTables.h   — English + Italian freq tables        [Person A - DONE]
-    MetricsRecorder.h   — appends rows to results CSV          [Person A - DONE]
-  main.cpp              — benchmark entry point                [Person A - DONE]
-
+  algorithms/          Algorithm implementations
+  benchmark/           Benchmark runners
+  utils/               Corpus loading, sampling, metrics, frequency tables
+  main.cpp             Main benchmark entry point
 tests/
-  test_correctness.cpp  — 13 correctness tests for BMH + FBAS [Person A - DONE]
-
+  test_correctness.cpp Correctness and cross-algorithm agreement tests
+tools/
+  replicate_fbas_paper.cpp
 plots/
-  analyse.py            — reads CSV, produces 3 figures        [Person B - runs this]
-
+  analyse.py           Plot and summary generator
 data/
-  README.txt            — corpus download instructions
-  dante/                — place divina_commedia.txt here
-  pizza/                — place english.txt here
-  gutenberg/            — optional (final checkpoint)
-
+  dante/
+  pizza/
+  gutenberg/
 results/
-  results.csv           — auto-generated when benchmark runs
+  Generated benchmark CSVs and summaries
+```
 
+## Build And Test
 
-Quick start
------------
-1. Download corpora (see data/README.txt).
+```powershell
+mingw32-make test
+```
 
-2. Build and test:
-     make test
-     OR: 
-     g++ -std=c++17 -O2 -Wall -Wextra -Isrc tests/test_correctness.cpp -o test_correctness.exe
-     .\test_correctness.exe
+Or compile directly:
 
-3. Run benchmark:
-     make
-     benchmark.exe
-     OR:
-     g++ -std=c++17 -O2 -Wall -Wextra src/main.cpp -o benchmark.exe
-    .\benchmark.exe
+```powershell
+g++ -std=c++17 -O2 -Wall -Wextra -Isrc tests/test_correctness.cpp -o test_correctness.exe
+.\test_correctness.exe
+```
 
+## Run Benchmarks
 
-4. Generate plots (after benchmark):
-     python plots/analyse.py
+```powershell
+mingw32-make benchmark.exe
+.\benchmark.exe
+python plots\analyse.py
+```
 
-5. Plots appear in plots/  — use them in the report and slides.
+For the FBAS first-occurrence replication:
 
+```powershell
+mingw32-make replicate
+```
 
-Build requirements
-------------------
-- g++ (MinGW-W64) with C++17 support  — g++ --version to confirm
-- Python 3 with pandas and matplotlib — pip install pandas matplotlib
+## Dependencies
 
+- MinGW-W64 `g++` with C++17 support
+- Python 3
+- `pandas`, `matplotlib`, `numpy`
 
-References
-----------
-- Horspool (1980) — BMH algorithm (Algorithm SBM in the paper)
-- Garraoui (2025) — FBAS algorithm (arXiv:2601.03271)
-- Palmer et al. (2024) — HC algorithm (SEA 2024, LIPIcs vol. 301)
+## References
+
+- Horspool, R. N. (1980). Practical fast searching in strings.
+- Garraoui (2025). Frequency-Based Anchor Selection.
+- Palmer, Faro, and Scafiti (2024). Hash Chain.

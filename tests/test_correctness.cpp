@@ -5,6 +5,7 @@
 #include <stdexcept>
 #include <unordered_set>
 #include <algorithm>
+#include <random>
 
 #include "../src/algorithms/BMHMatcher.h"
 #include "../src/algorithms/FBASMatcher.h"
@@ -353,6 +354,36 @@ TEST(all_three_agree_on_positions) {
     assert(bmh_res == hc_res);
 }
 
+TEST(all_algorithms_agree_on_random_texts) {
+    auto eng = FrequencyTables::english();
+    std::mt19937 rng(47);
+    std::uniform_int_distribution<int> char_dist(0, 4);
+    const std::string alphabet = "ab cd";
+
+    for (int case_id = 0; case_id < 100; ++case_id) {
+        std::string text;
+        text.reserve(250);
+        for (int i = 0; i < 250; ++i)
+            text.push_back(alphabet[char_dist(rng)]);
+
+        for (size_t length : {1u, 2u, 3u, 5u, 8u, 13u}) {
+            size_t start = static_cast<size_t>(case_id * 17 + length * 11)
+                         % (text.size() - length);
+            std::string pattern = text.substr(start, length);
+
+            BMHMatcher bmh;
+            FBASMatcher fbas(eng);
+            HCMatcher hc11(3, 11);
+            HCMatcher hc12(3, 12);
+
+            auto expected = sorted(run(bmh, text, pattern));
+            assert(sorted(run(fbas, text, pattern)) == expected);
+            assert(sorted(run(hc11, text, pattern)) == expected);
+            assert(sorted(run(hc12, text, pattern)) == expected);
+        }
+    }
+}
+
 // ================================================================
 //  PatternSampler tests
 // ================================================================
@@ -431,6 +462,7 @@ int main() {
 
     std::cout << "\n--- Cross-algorithm ---\n";
     RUN(all_three_agree_on_positions);
+    RUN(all_algorithms_agree_on_random_texts);
     RUN(pattern_sampler_returns_unique_patterns);
     RUN(pattern_sampler_systematic_fallback);
 

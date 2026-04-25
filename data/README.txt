@@ -1,31 +1,30 @@
 Data download instructions
 ==========================
 
-The corpora are not included in the repo (large files).
-Place them as plain UTF-8 text files at the paths below.
+The corpora are stored as plain UTF-8 text files at these paths.
 
-
-1. Dante's Divina Commedia (Italian, ~550,000 chars)
+1. Dante's Divina Commedia (Italian, about 550,000 chars)
    - URL: https://www.gutenberg.org/cache/epub/1000/pg1000.txt
    - Save as: data/dante/divina_commedia.txt
-   - Used in: Garraoui (2025) — allows direct cross-check of FBAS results.
+   - Used for: Garraoui (2025) FBAS cross-check.
 
 2. Pizza & Chilli English text (English, 100 MB)
    - URL: https://pizzachili.dcc.uchile.cl/texts/nlang/english.100MB.gz
    - Decompress and save as: data/pizza/english.txt
-   - Used in: Palmer et al. (2024) — allows direct cross-check of HC results.
+   - Used for: Palmer et al. (2024) HC runtime cross-check.
 
-3. Project Gutenberg English subset (optional for checkpoint 2)
-   - URL: https://zenodo.org/record/2422560 (Gerlach & Font-Clos 2020)
-   - Save as: data/gutenberg/gutenberg_english.txt
-   - Used in: proposal's full experimental plan (final checkpoint).
-
+3. Project Gutenberg English sample/subset
+   - Full reference corpus: https://zenodo.org/records/2422561
+   - Demo/sample path: data/gutenberg/gutenberg_english.txt
+   - Used for: the proposal's third-corpus requirement and robustness checks
+     on a second English literary corpus.
 
 Notes
 -----
 - The benchmark skips any corpus whose file is missing and prints a warning.
-- All files must be plain text (no HTML, no XML).
-- For Dante: the Project Gutenberg file includes a header/footer.
-  You can leave it in — it won't affect results meaningfully.
-- For Pizza & Chilli: the .gz file is ~35 MB; decompressed ~100 MB.
-  Use 7-Zip on Windows to extract it.
+- All files must be plain text, not HTML/XML.
+- CorpusLoader::load() preserves byte count while replacing CR/LF/NUL with
+  spaces for the main all-occurrences benchmark.
+- tools/replicate_fbas_paper.cpp uses CorpusLoader::load_raw() for the FBAS
+  paper replication because Garraoui's Table II uses raw first-occurrence
+  behavior rather than the normalized all-occurrences benchmark.

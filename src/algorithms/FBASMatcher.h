@@ -1,6 +1,7 @@
 #pragma once
 
 #include "BMHMatcher.h"
+#include <cctype>
 #include <unordered_map>
 #include <string>
 
@@ -41,9 +42,10 @@ public:
         anchor_pos_ = 0;
 
         for (size_t idx = 0; idx < pattern_.size(); ++idx) {
-            char c = std::tolower(pattern_[idx]);
+            char c = static_cast<char>(
+                std::tolower(static_cast<unsigned char>(pattern_[idx])));
             auto it = freq_table_.find(c);
-            double freq = (it != freq_table_.end()) ? it->second : 50.0;
+            double freq = (it != freq_table_.end()) ? it->second : 1.0;
 
             if (freq < min_freq) {
                 min_freq    = freq;

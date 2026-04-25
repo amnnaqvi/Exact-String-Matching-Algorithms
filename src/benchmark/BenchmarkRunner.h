@@ -19,7 +19,7 @@
 //  separate rows in the CSV and can be compared in analysis.
 // ================================================================
 
-static constexpr int N_RUNS = 5;
+static constexpr int N_RUNS = 30;
 
 class BenchmarkRunner {
 public:
