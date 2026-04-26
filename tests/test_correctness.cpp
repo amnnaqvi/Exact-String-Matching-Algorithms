@@ -14,7 +14,7 @@
 #include "../src/utils/PatternSampler.h"
 
 // ================================================================
-//  Simple test runner — no external libraries needed.
+//  Simple test runner: no external libraries needed.
 //  Each test calls assert(); a failing test crashes with a message.
 // ================================================================
 
@@ -171,7 +171,7 @@ TEST(fbas_multiple_matches) {
 }
 
 TEST(fbas_comparisons_fewer_than_bmh_on_rare_anchor) {
-    // Pattern with a rare character (z) — FBAS should reject most windows
+    // Pattern with a rare character (z): FBAS should reject most windows
     // with 1 comparison at the anchor, so total comparisons <= BMH.
     auto eng = FrequencyTables::english();
     BMHMatcher  bmh;
@@ -246,7 +246,7 @@ TEST(hc_pattern_longer_than_text) {
 }
 
 TEST(hc_length_one_pattern) {
-    HCMatcher hc(1, 8);   // q=1, alpha=8 — works for single-char patterns
+    HCMatcher hc(1, 8);   // q=1, alpha=8 works for single-char patterns
     auto res = run(hc, "banana", "a");
     assert(res.size() == 3);
 }
@@ -308,7 +308,7 @@ TEST(hc_comparisons_counted) {
     HCMatcher hc;
     hc.preprocess("hello");
     hc.search("hello world hello");
-    // HC only counts verification comparisons — must be > 0
+    // HC only counts verification comparisons; must be > 0.
     assert(hc.get_metrics().comparisons > 0);
     assert(hc.get_metrics().matches_found == 2);
 }
@@ -326,7 +326,7 @@ TEST(hc_different_alpha_same_positions) {
 }
 
 TEST(hc_q_larger_than_pattern_clamped) {
-    // q=10 > pattern length=5 — should clamp without crashing
+    // q=10 > pattern length=5 should clamp without crashing.
     HCMatcher hc(10, 11);
     auto res = run(hc, "hello world hello", "hello");
     assert(res.size() == 2);
@@ -401,7 +401,7 @@ TEST(pattern_sampler_returns_unique_patterns) {
 }
 
 TEST(pattern_sampler_systematic_fallback) {
-    // Small corpus — systematic fallback must find distinct patterns
+    // Small corpus: systematic fallback must find distinct patterns.
     std::string text = "abcde fghij klmno pqrst uvwxy zabcd efghi jklmn opqrs tuvwx";
     PatternSampler s(42);
     auto patterns = s.sample(text, 5, 10);

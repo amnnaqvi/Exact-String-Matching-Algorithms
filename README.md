@@ -6,8 +6,10 @@ This project compares three exact string matching algorithms:
 - Frequency-Based Anchor Selection (FBAS)
 - Hash Chain (HC)
 
-The benchmark records character comparisons, search runtime, preprocessing
-time, matches found, and repeated-run timing variance.
+The benchmark records character comparisons, search runtime, preprocessing time,
+matches found, and repeated-run timing variance. The main question is practical:
+how much work do these algorithms do when the same patterns are searched in the
+same real text corpora?
 
 ## Structure
 
@@ -30,6 +32,32 @@ data/
 results/
   Generated benchmark CSVs and summaries
 ```
+
+## Experiment Flow
+
+```text
+data/ corpora
+  -> CorpusLoader normalises text
+  -> PatternSampler selects reproducible patterns
+  -> BenchmarkRunner runs each algorithm 30 times
+  -> MetricsRecorder writes results/results.csv
+  -> plots/analyse.py creates summaries and figures
+```
+
+## Algorithms
+
+- **BMH**: Boyer-Moore-Horspool baseline using a bad-character shift table.
+- **FBAS**: Extends BMH by checking the rarest character in the pattern first.
+- **HC**: Hash Chain filter using q-grams and an extended Bloom-filter style
+  table before full verification.
+
+BMH is the baseline story for the project. FBAS is a small, readable change to
+BMH: check the rarest pattern character first. HC is a different filtering
+approach that often avoids full verification.
+
+Important metric note: HC comparison counts include only final verification
+comparisons. Hash/filter work is reflected in `runtime_ms`, so use runtime for
+the fairest direct comparison across all three algorithms.
 
 ## Build And Test
 
@@ -57,6 +85,14 @@ For the FBAS first-occurrence replication:
 ```powershell
 mingw32-make replicate
 ```
+
+## Presentation Checklist
+
+- `mingw32-make test` should pass before presenting.
+- `results/match_sanity.csv` and `plots/fig8_match_sanity.png` show agreement
+  on match counts.
+- `plots/fig1_*`, `fig3_*`, and `fig5_*` are the strongest result figures for
+  comparisons, runtime, and filtering efficiency.
 
 ## Dependencies
 

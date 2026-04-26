@@ -9,34 +9,18 @@
 #include <algorithm>
 #include <iostream>
 
-// ================================================================
-//  PatternSampler
-//
-//  Extracts patterns that actually exist in the corpus text.
-//  All returned patterns are guaranteed to be unique substrings.
-//
-//  PREREQUISITE: the corpus text must have been normalised by
-//  CorpusLoader::load() so that newlines/nulls are replaced with
-//  spaces. After normalisation, every position is a valid pattern
-//  start — no position-skipping is needed here.
-//
-//  Sampling strategy:
-//    1. Random sampling with a fixed seed (reproducible across machines).
-//    2. If random sampling cannot fill the quota after a generous
-//       budget, fall back to a systematic scan of the text to collect
-//       all remaining distinct patterns — guaranteeing we always
-//       return exactly `count` patterns when enough unique substrings
-//       exist in the corpus.
-// ================================================================
+// Selects reproducible patterns that actually occur in a corpus. The random
+// pass gives varied samples; the systematic fallback handles small or repetitive
+// corpora without silently returning duplicate patterns.
 
 class PatternSampler {
 public:
 
     explicit PatternSampler(unsigned int seed = 42) : rng_(seed) {}
 
-    // Sample `count` distinct patterns of exactly `length` chars.
-    // Returns fewer only if the corpus genuinely does not contain
-    // `count` distinct substrings of that length.
+    // Sample `count` distinct patterns of exactly `length` characters.
+    // Returns fewer only if the corpus genuinely does not contain enough
+    // distinct substrings of that length.
     std::vector<std::string> sample(const std::string& text,
                                     size_t length,
                                     size_t count) {
@@ -52,18 +36,14 @@ public:
         std::vector<std::string> patterns;
         patterns.reserve(count);
 
-        // ---- Phase 1: random sampling ----
-        // Budget: 200x the requested count. For large corpora this is
-        // always sufficient; for small corpora we fall back to Phase 2.
+        // Phase 1: random sampling with a generous retry budget.
         size_t budget = count * 200;
         for (size_t attempt = 0; attempt < budget && patterns.size() < count; ++attempt) {
             size_t pos = dist(rng_);
             add_if_unique(text, pos, length, seen, patterns);
         }
 
-        // ---- Phase 2: systematic scan fallback ----
-        // Walk the text in steps of length/4 (shuffled) to cover
-        // distinct regions without the collision penalty of pure random.
+        // Phase 2: scan shuffled start positions if random sampling collides.
         if (patterns.size() < count) {
             size_t step = std::max<size_t>(1, length / 4);
             std::vector<size_t> starts;
@@ -87,21 +67,8 @@ public:
         return patterns;
     }
 
-    // ----------------------------------------------------------------
-    //  rarity_label
-    //
-    //  Assigns a bucket based on the LEAST-frequent character in the
-    //  pattern according to the corpus language's frequency table.
-    //
-    //  Thresholds (our experimental choice, not from Garraoui 2025):
-    //    rare   -- min char freq < 0.005  (e.g. 'x', 'z', 'q', 'j')
-    //    medium -- min char freq < 0.040  (e.g. 'b', 'v', 'k', 'f')
-    //    common -- everything else        (e.g. 'e', 'a', 't', ' ')
-    //
-    //  Space (' ') is treated as a common character (freq ~0.13) after
-    //  corpus normalisation. Patterns spanning original line boundaries
-    //  will contain spaces; this is fine and expected.
-    // ----------------------------------------------------------------
+    // Bucket by the least-frequent character in the pattern. These thresholds
+    // are an experimental grouping for analysis, not a claim from the papers.
     static std::string rarity_label(const std::string& pattern,
                                     const std::unordered_map<char, double>& freq_table) {
         double min_freq = 1.0;
