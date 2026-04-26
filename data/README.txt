@@ -1,6 +1,3 @@
-Data download instructions
-==========================
-
 The corpora are stored as plain UTF-8 text files at these paths.
 
 1. Dante's Divina Commedia (Italian, about 550,000 chars)
@@ -21,8 +18,6 @@ The corpora are stored as plain UTF-8 text files at these paths.
 
 Notes
 -----
-- The benchmark skips any corpus whose file is missing and prints a warning.
-- All files must be plain text, not HTML/XML.
 - CorpusLoader::load() preserves byte count while replacing CR/LF/NUL with
   spaces for the main all-occurrences benchmark.
 - tools/replicate_fbas_paper.cpp uses CorpusLoader::load_raw() for the FBAS
