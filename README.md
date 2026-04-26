@@ -59,36 +59,34 @@ Important metric note: HC comparison counts include only final verification
 comparisons. Hash/filter work is reflected in `runtime_ms`, so use runtime for
 the fairest direct comparison across all three algorithms.
 
-## Build And Test
+## Main Command
+
+```powershell
+mingw32-make pipeline
+```
+
+This runs the complete reproducible workflow:
+
+- builds and runs the correctness tests,
+- runs the main benchmark,
+- runs the FBAS paper replication,
+- regenerates the summary CSVs and plots.
+
+## Useful Individual Commands
+
+Use these only when you want to rerun one part of the project:
 
 ```powershell
 mingw32-make test
-```
-
-Or compile directly:
-
-```powershell
-g++ -std=c++17 -O2 -Wall -Wextra -Isrc tests/test_correctness.cpp -o test_correctness.exe
-.\test_correctness.exe
-```
-
-## Run Benchmarks
-
-```powershell
 mingw32-make benchmark.exe
 .\benchmark.exe
+mingw32-make replicate
 python plots\analyse.py
 ```
 
-For the FBAS first-occurrence replication:
+## Validation Checks
 
-```powershell
-mingw32-make replicate
-```
-
-## Presentation Checklist
-
-- `mingw32-make test` should pass before presenting.
+- `mingw32-make test` should pass before trusting new results.
 - `results/match_sanity.csv` and `plots/fig8_match_sanity.png` show agreement
   on match counts.
 - `plots/fig1_*`, `fig3_*`, and `fig5_*` are the strongest result figures for

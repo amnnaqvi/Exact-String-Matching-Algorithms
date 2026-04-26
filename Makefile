@@ -1,8 +1,9 @@
 # Makefile for MinGW-W64 on Windows
 # Run from the project root: 
-# make (builds benchmark)
-# make test  (builds and runs tests)
-# make clean (removes binaries)
+# make pipeline  (tests, benchmarks, replication, plots)
+# make           (builds benchmark)
+# make test      (builds and runs tests)
+# make clean     (removes binaries)
 
 CXX      = g++
 CXXFLAGS = -std=c++17 -O2 -Wall -Wextra
@@ -25,6 +26,11 @@ $(BENCH_BIN): src/main.cpp \
               src/utils/MetricsRecorder.h
 	$(CXX) $(CXXFLAGS) src/main.cpp -o $(BENCH_BIN)
 	@echo "Built $(BENCH_BIN)"
+
+pipeline: test $(BENCH_BIN) $(REPL_BIN)
+	./$(BENCH_BIN)
+	./$(REPL_BIN)
+	python plots/analyse.py
 
 replicate: $(REPL_BIN)
 	./$(REPL_BIN)
@@ -55,4 +61,4 @@ $(TEST_BIN): tests/test_correctness.cpp \
 clean:
 	del /Q $(BENCH_BIN) $(TEST_BIN) $(REPL_BIN) 2>nul || true
 
-.PHONY: test replicate clean
+.PHONY: pipeline test replicate clean

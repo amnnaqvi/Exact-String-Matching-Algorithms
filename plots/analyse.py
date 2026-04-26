@@ -1,5 +1,5 @@
 """
-Generate final-demo plots and summary CSVs from results/results.csv.
+Generate plots and summary CSVs from results/results.csv.
 
 Run from project root:
     python plots/analyse.py

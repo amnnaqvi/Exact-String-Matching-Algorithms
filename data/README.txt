@@ -15,7 +15,7 @@ The corpora are stored as plain UTF-8 text files at these paths.
 
 3. Project Gutenberg English sample/subset
    - Full reference corpus: https://zenodo.org/records/2422561
-   - Demo/sample path: data/gutenberg/gutenberg_english.txt
+   - Local path: data/gutenberg/gutenberg_english.txt
    - Used for: the proposal's third-corpus requirement and robustness checks
      on a second English literary corpus.
 
