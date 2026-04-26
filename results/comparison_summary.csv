@@ -32,8 +32,8 @@ HC,dante,16,18.4,5.72
 HC,dante,32,33.6,6.98
 HC,dante,64,64.0,0.0
 HC,gutenberg,8,38.05,62.15
-HC,gutenberg,16,200.95,791.1
-HC,gutenberg,32,2307.9,9928.7
+HC,gutenberg,16,200.55,789.81
+HC,gutenberg,32,2301.4,9900.34
 HC,gutenberg,64,64.0,0.0
 HC,gutenberg,128,128.0,0.0
 HC,pizza,8,6988.2,9892.28
